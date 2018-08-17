@@ -1,0 +1,22 @@
+{
+  "name": "horizon",
+  "displayName": "horizon",
+  "description": "A beautiful dark theme for VS Code",
+  "version": "0.0.1",
+  "publisher": "jolaleye",
+  "engines": {
+    "vscode": "^1.26.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+      "label": "horizon",
+      "uiTheme": "vs-dark",
+      "path": "./themes/horizon-color-theme.json"
+      }
+    ]
+  }
+}
