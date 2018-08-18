@@ -24,7 +24,7 @@
     "themes": [{
       "label": "Horizon",
       "uiTheme": "vs-dark",
-      "path": "./themes/horizon-color-theme.json"
+      "path": "./themes/horizon.json"
     }]
   },
   "repository": {
