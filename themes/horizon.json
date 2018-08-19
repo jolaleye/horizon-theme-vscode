@@ -52,8 +52,8 @@
 		"editorLineNumber.foreground": "#BBBBBB26",
 		"editorLineNumber.activeForeground": "#BBBBBB66",
 		"editorCursor.foreground": "#E9416D",
-		"editor.selectionBackground": "#2E303E99",
-		"editor.selectionHighlightBackground": "#2E303ECC",
+		"editor.selectionBackground": "#2E303ECC",
+		"editor.selectionHighlightBackground": "#2E303E80",
 		"editor.wordHighlightBackground": "#6C6F9399",
 		"editor.wordHighlightStrongBackground": "#6C6F93B3",
 		"editor.findMatchBackground": "#6C6F9399",
@@ -101,7 +101,9 @@
 		"titleBar.activeBackground": "#1C1E26",
 		"titleBar.inactiveBackground": "#1C1E26",
 		"extensionButton.prominentBackground": "#E9416D",
-		"extensionButton.prominentHoverBackground": "#F42951"
+		"extensionButton.prominentHoverBackground": "#F42951",
+		"terminalCursor.background": "#D5D8DA",
+		"terminalCursor.foreground": "#E9416D80"
 	},
 	"tokenColors": []
 }
