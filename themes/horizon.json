@@ -6,6 +6,7 @@
 		"foreground": "#D5D8DA",
 		"widget.shadow": "#16161C",
 		"selection.background": "#E9416D80",
+		"errorForeground": "#E9416D",
 		"textLink.activeForeground": "#F42951",
 		"textLink.foreground": "#E9416D",
 		"button.background": "#2E303E",
