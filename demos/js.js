@@ -5,7 +5,7 @@ class Banana {
 
   eat() {
     // omnomomnomom
-    const om = 'om nom';
+    const om = 'om\nnom';
   }
 
   static peelTime(length) {
