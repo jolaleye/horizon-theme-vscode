@@ -158,7 +158,7 @@
 			"name": "character escapes",
 			"scope": "constant.character.escape",
 			"settings": {
-				"foreground": "#21BFC2"
+				"foreground": "#16C7B0"
 			}
 		},
 		{
@@ -193,7 +193,7 @@
 			"name": "functions",
 			"scope": "entity.name.function",
 			"settings": {
-				"foreground": "#21B6C5"
+				"foreground": "#25B2D0"
 			}
 		},
 		{
@@ -228,7 +228,7 @@
 			"name": "support functions",
 			"scope": "support.function",
 			"settings": {
-				"foreground": "#21BFC2"
+				"foreground": "#16C7B0"
 			}
 		},
 		{
@@ -267,6 +267,34 @@
 			],
 			"settings": {
 				"foreground": "#CA71DB"
+			}
+		},
+		{
+			"name": "parameters",
+			"scope": "variable.parameter",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "css properties",
+			"scope": "support.type.property-name.css",
+			"settings": {
+				"foreground": "#BBBBBB"
+			}
+		},
+		{
+			"name": "colors",
+			"scope": "constant.other.color",
+			"settings": {
+				"foreground": "#FF8A8B"
+			}
+		},
+		{
+			"name": "font names",
+			"scope": "support.constant.font-name",
+			"settings": {
+				"foreground": "#FF8A8B"
 			}
 		}
 	]
