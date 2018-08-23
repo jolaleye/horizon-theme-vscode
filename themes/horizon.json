@@ -40,7 +40,7 @@
 		"activityBarBadge.background": "#FF4266",
 		"activityBarBadge.foreground": "#16161C",
 		"sideBar.background": "#1C1E26",
-		"sideBar.foreground": "#BBBBBB99",
+		"sideBar.foreground": "#D5D8DA80",
 		"sideBar.dropBackground": "#6C6F934D",
 		"sideBarSectionHeader.background": "#1C1E26",
 		"sideBarSectionHeader.foreground": "#D5D8DACC",
@@ -121,6 +121,17 @@
 			}
 		},
 		{
+			"name": "String",
+			"scope": [
+				"string.quoted",
+				"string.template",
+				"punctuation.definition.string"
+			],
+			"settings": {
+				"foreground": "#FAB087"
+			}
+		},
+		{
 			"name": "Variable",
 			"scope": "variable",
 			"settings": {
@@ -128,21 +139,35 @@
 			}
 		},
 		{
-			"name": "String",
-			"scope": [
-				"string.quoted.single",
-				"string.quoted.double",
-				"string.template"
-			],
+			"name": "Language variable",
+			"scope": "variable.language",
 			"settings": {
-				"foreground": "#FAB087"
+				"foreground": "#FAC79D",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Parameter",
+			"scope": "variable.parameter",
+			"settings": {
+				"fontStyle": "italic"
 			}
 		},
 		{
 			"name": "Storage (declaration or modifier keyword)",
-			"scope": "storage",
+			"scope": [
+				"storage.type",
+				"storage.modifier"
+			],
 			"settings": {
 				"foreground": "#C577DB"
+			}
+		},
+		{
+			"name": "Constant",
+			"scope": "constant",
+			"settings": {
+				"foreground": "#FF8A84"
 			}
 		},
 		{
@@ -167,6 +192,13 @@
 			}
 		},
 		{
+			"name": "Entity (data interfaces)",
+			"scope": "entity.name",
+			"settings": {
+				"foreground": "#FAC79D"
+			}
+		},
+		{
 			"name": "HTML or XML tag",
 			"scope": "entity.name.tag",
 			"settings": {
@@ -178,13 +210,6 @@
 			"scope": "entity.other.attribute-name",
 			"settings": {
 				"foreground": "#FF8A84"
-			}
-		},
-		{
-			"name": "Parameter",
-			"scope": "variable.parameter",
-			"settings": {
-				"fontStyle": "italic"
 			}
 		},
 		{
@@ -203,9 +228,19 @@
 		},
 		{
 			"name": "Function",
-			"scope": "entity.name.function",
+			"scope": [
+				"entity.name.function",
+				"variable.function"
+			],
 			"settings": {
 				"foreground": "#25B6BC"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": "keyword",
+			"settings": {
+				"foreground": "#C577DB"
 			}
 		},
 		{
@@ -216,23 +251,33 @@
 			}
 		},
 		{
-			"name": "'this'",
-			"scope": "variable.language.this",
+			"name": "Operator",
+			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#FAC79D",
-				"fontStyle": "italic"
+				"foreground": "#BBBBBB"
 			}
 		},
 		{
-			"name": "'new'",
-			"scope": "keyword.operator.new",
+			"name": "Special operator",
+			"scope": [
+				"keyword.operator.new",
+				"keyword.operator.expression.typeof",
+				"keyword.operator.logical"
+			],
 			"settings": {
 				"foreground": "#C577DB"
 			}
 		},
 		{
-			"name": "Support class",
-			"scope": "support.class",
+			"name": "Unit",
+			"scope": "keyword.other.unit",
+			"settings": {
+				"foreground": "#FF8A84"
+			}
+		},
+		{
+			"name": "Support",
+			"scope": "support",
 			"settings": {
 				"foreground": "#FAC79D"
 			}
@@ -245,10 +290,10 @@
 			}
 		},
 		{
-			"name": "Support constant",
-			"scope": "support.constant",
+			"name": "Support variable",
+			"scope": "support.variable",
 			"settings": {
-				"foreground": "#FAC79D"
+				"foreground": "#E96075"
 			}
 		},
 		{
@@ -311,6 +356,52 @@
 			"scope": "entity.other.attribute-name.id.css",
 			"settings": {
 				"foreground": "#E96075"
+			}
+		},
+		{
+			"name": "Markup heading",
+			"scope": [
+				"markup.heading",
+				"entity.name.section"
+			],
+			"settings": {
+				"foreground": "#E96075"
+			}
+		},
+		{
+			"name": "Markup quote",
+			"scope": "markup.quote",
+			"settings": {
+				"foreground": "#BBBBBBCC",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Markup list",
+			"scope": "beginning.punctuation.definition.list",
+			"settings": {
+				"foreground": "#E96075"
+			}
+		},
+		{
+			"name": "Markup link",
+			"scope": "markup.underline.link",
+			"settings": {
+				"foreground": "#FAB087"
+			}
+		},
+		{
+			"name": "Markup link description",
+			"scope": "string.other.link.description",
+			"settings": {
+				"foreground": "#FF8A84"
+			}
+		},
+		{
+			"name": "Python function call",
+			"scope": "meta.function-call.generic.python",
+			"settings": {
+				"foreground": "#25B6BC"
 			}
 		}
 	]
