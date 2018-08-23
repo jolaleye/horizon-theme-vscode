@@ -4,7 +4,7 @@
 
 A beautifully warm dark theme for Visual Studio Code.
 
-![preview](snippet.png)
+![preview](https://i.imgur.com/VSOywHH.png)
 
 </div>
 
