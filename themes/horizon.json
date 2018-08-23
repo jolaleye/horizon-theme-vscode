@@ -128,7 +128,7 @@
 				"punctuation.definition.string"
 			],
 			"settings": {
-				"foreground": "#FAA28E"
+				"foreground": "#FAB38E"
 			}
 		},
 		{
@@ -142,7 +142,7 @@
 			"name": "Language variable",
 			"scope": "variable.language",
 			"settings": {
-				"foreground": "#FAB59A",
+				"foreground": "#FAC19A",
 				"fontStyle": "italic"
 			}
 		},
@@ -195,7 +195,7 @@
 			"name": "Entity (data interfaces)",
 			"scope": "entity.name",
 			"settings": {
-				"foreground": "#FAB59A"
+				"foreground": "#FAC19A"
 			}
 		},
 		{
@@ -216,14 +216,14 @@
 			"name": "Class",
 			"scope": "entity.name.type",
 			"settings": {
-				"foreground": "#FAB59A"
+				"foreground": "#FAC19A"
 			}
 		},
 		{
 			"name": "Inherited class",
 			"scope": "entity.other.inherited-class",
 			"settings": {
-				"foreground": "#FAA28E"
+				"foreground": "#FAB38E"
 			}
 		},
 		{
@@ -279,7 +279,7 @@
 			"name": "Support",
 			"scope": "support",
 			"settings": {
-				"foreground": "#FAB59A"
+				"foreground": "#FAC19A"
 			}
 		},
 		{
@@ -387,7 +387,7 @@
 			"name": "Markup link",
 			"scope": "markup.underline.link",
 			"settings": {
-				"foreground": "#FAA28E"
+				"foreground": "#FAB38E"
 			}
 		},
 		{
