@@ -43,8 +43,8 @@ For more personalization options visit the [VS Code Theme Color Reference](https
 
 If you find anything weird please [open an issue](https://github.com/jolaleye/horizon-theme-vscode/issues). Include a screenshot if possible for clarity. For larger problems, consider making a short demo like the ones found in `demos`. The community is what makes projects like this one great. 😉
 
-<span align="center">
+<div align="center">
 
 Designed by [Jonathan Olaleye](https://github.com/jolaleye)
 
-</span>
+</div>
