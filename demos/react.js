@@ -21,7 +21,7 @@ class Horizon extends Component {
     return (
       <div className="horizon">
         <Nav />
-        <h1>Horizon is pretty dope</h1>
+        <h1>Horizon is pretty nice</h1>
         <span>Hope you like it!</span>
         <button onClick={this.handleClick}>click me</button>
       </div>
