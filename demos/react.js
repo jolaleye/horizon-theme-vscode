@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Nav from './Nav';
 
 import './Horizon.css';
 
@@ -19,6 +20,7 @@ class Horizon extends Component {
   render() {
     return (
       <div className="horizon">
+        <Nav />
         <h1>Horizon is pretty dope</h1>
         <span>Hope you like it!</span>
         <button onClick={this.handleClick}>click me</button>
