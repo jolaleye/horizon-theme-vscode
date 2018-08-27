@@ -37,6 +37,26 @@ Horizon has a seamless appearance across the different elements of VS Code like 
   "sideBar.border": "#1C1E26"
 }
 ```
+
+### Tag brackets
+If you prefer light gray brackets around HTML tags you can add the following to your editor's settings...
+```
+"editor.tokenColorCustomizations": {
+  "textMateRules": [
+    {
+      "name": "Tag brackets",
+      "scope": [
+        "punctuation.definition.tag.begin",
+        "punctuation.definition.tag.end"
+      ],
+      "settings": {
+        "foreground": "#BBBBBB"
+      }
+    }
+  ]
+}
+```
+
 For more personalization options visit the [VS Code Theme Color Reference](https://code.visualstudio.com/docs/getstarted/theme-color-reference).
 
 ## Contributing
