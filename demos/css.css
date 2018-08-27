@@ -3,7 +3,11 @@
   background: rgb(25, 27, 37);
 }
 
-#id {
+#id:after {
   font-family: 'Roboto', sans-serif;
   color: salmon;
+}
+
+div:nth-child(3) {
+  margin: 0 1em;
 }
