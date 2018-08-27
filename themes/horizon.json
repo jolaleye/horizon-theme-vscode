@@ -128,7 +128,7 @@
 				"punctuation.definition.string"
 			],
 			"settings": {
-				"foreground": "#FAB38EE6"
+				"foreground": "#FAB98EE6"
 			}
 		},
 		{
@@ -167,21 +167,21 @@
 			"name": "Constant",
 			"scope": "constant",
 			"settings": {
-				"foreground": "#F0857EE6"
+				"foreground": "#F09483E6"
 			}
 		},
 		{
 			"name": "Number",
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#F0857EE6"
+				"foreground": "#F09483E6"
 			}
 		},
 		{
 			"name": "Language constant (boolean, null)",
 			"scope": "constant.language",
 			"settings": {
-				"foreground": "#F0857EE6"
+				"foreground": "#F09483E6"
 			}
 		},
 		{
@@ -209,7 +209,7 @@
 			"name": "Tag atttribute",
 			"scope": "entity.other.attribute-name",
 			"settings": {
-				"foreground": "#F0857EE6"
+				"foreground": "#F09483E6"
 			}
 		},
 		{
@@ -223,7 +223,7 @@
 			"name": "Inherited class",
 			"scope": "entity.other.inherited-class",
 			"settings": {
-				"foreground": "#FAB38EE6"
+				"foreground": "#FAB98EE6"
 			}
 		},
 		{
@@ -272,7 +272,7 @@
 			"name": "Unit",
 			"scope": "keyword.other.unit",
 			"settings": {
-				"foreground": "#F0857EE6"
+				"foreground": "#F09483E6"
 			}
 		},
 		{
@@ -341,14 +341,14 @@
 			"name": "Color",
 			"scope": "constant.other.color",
 			"settings": {
-				"foreground": "#F0857EE6"
+				"foreground": "#F09483E6"
 			}
 		},
 		{
 			"name": "Font names",
 			"scope": "support.constant.font-name",
 			"settings": {
-				"foreground": "#F0857EE6"
+				"foreground": "#F09483E6"
 			}
 		},
 		{
@@ -387,14 +387,14 @@
 			"name": "Markup link",
 			"scope": "markup.underline.link",
 			"settings": {
-				"foreground": "#FAB38EE6"
+				"foreground": "#FAB98EE6"
 			}
 		},
 		{
 			"name": "Markup link description",
 			"scope": "string.other.link.description",
 			"settings": {
-				"foreground": "#F0857EE6"
+				"foreground": "#F09483E6"
 			}
 		},
 		{
