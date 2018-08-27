@@ -1,4 +1,7 @@
-# 1.2.0 - 8.27.18
+# 1.2.1 - 8.27.18
+- Update preview to reflect 1.2.0
+
+## 1.2.0 - 8.27.18
 - Changed syntax color for CSS id selectors
 - Changed syntax color for CSS pseudo selectors
 - Changed syntax color for CSS support functions (like rgb)
