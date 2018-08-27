@@ -1,9 +1,9 @@
-# 1.x.x - unreleased
-- Change syntax color for CSS id selectors
-- Change syntax color for CSS pseudo selectors
-- Change syntax color for CSS support functions (like rgb)
-- Match HTML tag bracket color to the tag name
-- Add instructions for changing tag bracket color to README
+# 1.2.0 - 8.27.18
+- Changed syntax color for CSS id selectors
+- Changed syntax color for CSS pseudo selectors
+- Changed syntax color for CSS support functions (like rgb)
+- Matched HTML tag bracket color to the tag name
+- Added instructions for changing tag bracket color to the README
 
 ## 1.1.0 - 8.27.18
 - Updated syntax color for constants, attributes, font names, etc.
