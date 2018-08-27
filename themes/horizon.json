@@ -353,9 +353,26 @@
 		},
 		{
 			"name": "CSS #id",
-			"scope": "entity.other.attribute-name.id.css",
+			"scope": "entity.other.attribute-name.id",
 			"settings": {
-				"foreground": "#E95678E6"
+				"foreground": "#25B0BCE6"
+			}
+		},
+		{
+			"name": "Pseudo CSS",
+			"scope": [
+				"entity.other.attribute-name.pseudo-element",
+				"entity.other.attribute-name.pseudo-class"
+			],
+			"settings": {
+				"foreground": "#FAB98EE6"
+			}
+		},
+		{
+			"name": "CSS support functions (rgb)",
+			"scope": "support.function.misc.css",
+			"settings": {
+				"foreground": "#FAC19AE6"
 			}
 		},
 		{
