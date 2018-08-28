@@ -430,6 +430,30 @@
 			"settings": {
 				"foreground": "#25B0BCE6"
 			}
+		},
+		{
+			"name": "C# storage type",
+			"scope": "storage.type.cs",
+			"settings": {
+				"foreground": "#FAC19AE6"
+			}
+		},
+		{
+			"name": "C# local variable",
+			"scope": "entity.name.variable.local.cs",
+			"settings": {
+				"foreground": "#E95678E6"
+			}
+		},
+		{
+			"name": "C# properties and fields",
+			"scope": [
+				"entity.name.variable.field.cs",
+				"entity.name.variable.property.cs"
+			],
+			"settings": {
+				"foreground": "#E95678E6"
+			}
 		}
 	]
 }
