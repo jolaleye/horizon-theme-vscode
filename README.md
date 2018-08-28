@@ -27,7 +27,7 @@ After you've downloaded and installed it, open your editor's settings and add th
 "editor.fontFamily": "Roboto Mono"
 ```
 
-### Sidebar Contrast
+### Sidebar contrast
 Horizon has a seamless appearance across the different elements of VS Code like the sidebar and editor. If you would like to add a border or tweak the background colors, you can do so in your editor's settings. Here is my recommendation, but feel free to use whatever colors you want.
 ```
 "workbench.colorCustomizations": {
