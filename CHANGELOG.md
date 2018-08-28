@@ -1,5 +1,6 @@
-# 1.x.x - unreleased
+# 1.2.2 - 8.28.18
 - Improved C# support
+- Updated preview image
 
 ## 1.2.1 - 8.27.18
 - Updated preview to reflect 1.2.0
