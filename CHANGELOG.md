@@ -1,4 +1,4 @@
-# 1.x.x - unreleased
+# 1.2.3 - 8.29.18
 - Fixed peek view colors
 - Updated color for deleted Git resources
 - Updated red UI accents
