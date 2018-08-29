@@ -1,6 +1,7 @@
 # 1.x.x - unreleased
 - Fixed peek view colors
 - Updated color for deleted Git resources
+- Updated red UI accents
 
 ## 1.2.2 - 8.28.18
 - Improved C# support
