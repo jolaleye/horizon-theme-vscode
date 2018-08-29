@@ -109,6 +109,7 @@
 		"terminalCursor.background": "#D5D8DA",
 		"terminalCursor.foreground": "#6C6F9399",
 		"walkThrough.embeddedEditorBackground": "#232530",
+		"gitDecoration.deletedResourceForeground": "#F43E5C",
 		"breadcrumbPicker.background": "#232530"
 	},
 	"tokenColors": [
