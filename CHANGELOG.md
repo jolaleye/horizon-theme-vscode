@@ -1,4 +1,7 @@
-# 1.2.2 - 8.28.18
+# 1.x.x - unreleased
+- Fixed peek view colors
+
+## 1.2.2 - 8.28.18
 - Improved C# support
 - Updated preview image
 
