@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "horizon",
+  "description": "Home of the Horizon theme for VS Code",
+  "author": "Jonathan Olaleye",
+  "license": "MIT",
+  "homepage": "https://github.com/jolaleye/horizon#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jolaleye/horizon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jolaleye/horizon/issues"
+  }
+}
