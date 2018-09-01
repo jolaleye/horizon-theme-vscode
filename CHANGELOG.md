@@ -1,4 +1,4 @@
-# 1.x.x - unreleased
+# 1.2.4 - 9.1.18
 - Fixed color for ignored Git resources
 
 ## 1.2.3 - 8.29.18
