@@ -1,4 +1,7 @@
-# 1.2.3 - 8.29.18
+# 1.x.x - unreleased
+- Fixed color for ignored Git resources
+
+## 1.2.3 - 8.29.18
 - Fixed peek view colors
 - Updated color for deleted Git resources
 - Updated red UI accents
