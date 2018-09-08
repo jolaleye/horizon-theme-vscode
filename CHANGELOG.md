@@ -1,4 +1,7 @@
-# 1.2.4 - 9.1.18
+# 1.2.5 - 9.7.18
+- Added instructions for making tweaks (found in the README) with the addition of the settings UI
+
+## 1.2.4 - 9.1.18
 - Fixed color for ignored Git resources
 
 ## 1.2.3 - 8.29.18
