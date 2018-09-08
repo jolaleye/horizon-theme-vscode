@@ -19,6 +19,8 @@ A beautifully warm dark theme for Visual Studio Code.
 
 ## Tweaks
 
+Everyone has their own tastes which is why I've added a few tweaks that you can make to enjoy Horizon even more 😄. Each tweak only requires that you open your editor's JSON settings and copy and paste the snippet. You can get there by opening the command palette with `Ctrl+Shift+P` and finding **Preferences: Open Settings (JSON)**. Just copy and paste the snippet into the right side of the settings editor and you're good to go!
+
 ### Font
 The font used in the preview is **Roboto Mono**. You can download it [here](https://fonts.google.com/specimen/Roboto+Mono).
 
