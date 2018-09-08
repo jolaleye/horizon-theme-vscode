@@ -1,4 +1,7 @@
-# 1.2.5 - 9.7.18
+# 1.2.6 - 9.8.18
+- Oops: Horizon was temporarily removed from the marketplace, but it's back! If you were already using Horizon, you may need to reinstall to continue recieving updates.
+
+## 1.2.5 - 9.7.18
 - Added instructions for making tweaks (found in the README) with the addition of the settings UI
 
 ## 1.2.4 - 9.1.18
