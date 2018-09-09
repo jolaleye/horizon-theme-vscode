@@ -3,5 +3,8 @@
   "name": "horizon",
   "description": "Home of the Horizon theme for VS Code",
   "author": "Jonathan Olaleye",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.9.3"
+  }
 }
