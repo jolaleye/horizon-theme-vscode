@@ -1,0 +1,77 @@
+*, *:before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$color-dark: #1E2028;
+$color-accent: #EC697A;
+$color-gray: #767676;
+
+$font-header: 'Montserrat', sans-serif;
+$font-body: 'Open Sans', sans-serif;
+
+$shadow-btn: 0 5px 20px rgba(0, 0, 0, 0.15);
+
+body {
+  background-color: $color-dark;
+}
+
+.header {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 1em 3em;
+}
+
+.header__logo {
+  width: 6.5em;
+  margin-bottom: 0.5em;
+  filter: drop-shadow(0 5px 20px rgba(0, 0, 0, 0.15));
+}
+
+.header__title {
+  color: white;
+  font-family: $font-header;
+  font-weight: 300;
+  font-size: 2.3em;
+  text-transform: uppercase;
+  margin-bottom: 0.3em;
+
+  &::first-letter {
+    font-size: 1.25em;
+  }
+}
+
+.header__description {
+  color: white;
+  font-family: $font-header;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+.header__links {
+  display: flex;
+  justify-content: center;
+
+  & a {
+    width: 9em;
+    padding: 0.7em 1.5em;
+    background-color: $color-gray;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: $font-body;
+    font-weight: 300;
+    font-size: 0.75em;
+    border-radius: 5px;
+    box-shadow: $shadow-btn;
+  }
+  
+  & a:first-child {
+    margin-right: 1.5em;
+    background-color: $color-accent;
+  }
+}
