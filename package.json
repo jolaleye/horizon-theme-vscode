@@ -21,11 +21,23 @@
     "theme", "dark", "horizon", "warm"
   ],
   "contributes": {
-    "themes": [{
-      "label": "Horizon",
-      "uiTheme": "vs-dark",
-      "path": "./themes/horizon.json"
-    }]
+    "themes": [
+      {
+        "label": "Horizon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/horizon.json"
+      },
+      {
+        "label": "Horizon Contrast",
+        "uiTheme": "vs-dark",
+        "path": "./themes/horizon-contrast.json"
+      },
+      {
+        "label": "Horizon Italic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/horizon-italic.json"
+      }
+    ]
   },
   "repository": {
     "type": "git",
