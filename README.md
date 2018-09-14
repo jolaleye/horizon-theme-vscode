@@ -15,14 +15,16 @@ A beautifully warm dark theme for Visual Studio Code.
 3. Click **Install**
 4. Click **Reload** to reload VS Code
 5. Navigate to File > Preferences > Color Theme and select **Horizon**
-6. You're all set! Enjoy! 🎉
+6. You're all set! Enjoy! 🎉 P.S. Check out some of the tweaks below... :)
 
 ## Tweaks
 
-Everyone has their own tastes which is why I've added a few tweaks that you can make to enjoy Horizon even more 😄. Each tweak only requires that you open your editor's JSON settings and copy and paste the snippet. You can get there by opening the command palette with `Ctrl+Shift+P` and finding **Preferences: Open Settings (JSON)**. Just copy and paste the snippet into the right side of the settings editor and you're good to go!
+Everyone has their own tastes which is why I've added a few tweaks that you can make to enjoy Horizon even more 😄. Each tweak only requires that you open your editor's JSON settings and copy & paste the snippet. You can get there by opening the command palette with `Ctrl+Shift+P` and finding **Preferences: Open Settings (JSON)**. Just copy and paste the snippet into the right side of the settings editor and you're good to go!
+
+For more info on theming and personalization visit the [Extension Authoring Guide](https://code.visualstudio.com/docs/extensions/themes-snippets-colorizers) and the [VS Code Theme Color Reference](https://code.visualstudio.com/docs/getstarted/theme-color-reference).
 
 ### Font
-The font used in the preview is **Roboto Mono**. You can download it [here](https://fonts.google.com/specimen/Roboto+Mono).
+The font used in the preview is **Roboto Mono**, available on [Google Fonts](https://fonts.google.com/specimen/Roboto+Mono).
 
 After you've downloaded and installed it, open your editor's settings and add the following...
 ```
@@ -30,7 +32,7 @@ After you've downloaded and installed it, open your editor's settings and add th
 ```
 
 ### Sidebar contrast
-Horizon has a seamless appearance across the different elements of VS Code like the sidebar and editor. If you would like to add a border or tweak the background colors, you can do so in your editor's settings. Here is my recommendation, but feel free to use whatever colors you want.
+Horizon has a seamless appearance across the different elements of VS Code. If you would like to add borders or tweak background colors, you can do so in your editor's settings. The following is my recommendation for sidebar contrast, but feel free to use whatever colors you want.
 ```
 "workbench.colorCustomizations": {
   "activityBar.background": "#1E2028",
@@ -41,7 +43,7 @@ Horizon has a seamless appearance across the different elements of VS Code like 
 ```
 
 ### Tag brackets
-If you prefer light gray brackets around HTML tags you can add the following to your editor's settings...
+To customize the color of brackets `<>` around HTML tags, add the following to your settings...
 ```
 "editor.tokenColorCustomizations": {
   "textMateRules": [
@@ -58,8 +60,6 @@ If you prefer light gray brackets around HTML tags you can add the following to 
   ]
 }
 ```
-
-For more personalization options visit the [VS Code Theme Color Reference](https://code.visualstudio.com/docs/getstarted/theme-color-reference).
 
 ## Contributing
 
