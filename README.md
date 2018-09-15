@@ -1,8 +1,10 @@
 <div align="center">
 
-# ☀️ Horizon ☀️
+<img src="icon.png" alt="" width="140">
 
-A beautifully warm dark theme for Visual Studio Code.
+# Horizon
+
+### A beautifully warm dark theme for Visual Studio Code.
 
 ![preview](https://i.imgur.com/Bwqnpp6.png)
 
