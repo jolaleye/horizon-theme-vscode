@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Horizon</title>
   <link rel="stylesheet" href="/css/main.scss">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400|Open+Sans:300,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400|Open+Sans:300,400|Roboto+Mono" rel="stylesheet">
 </head>
 <body>
   <header class="header">
@@ -18,9 +18,9 @@
     </div>
   </header>
   <main>
-    <section class="install">
+    <section>
       <h1>Installation</h1>
-      <ol class="install__steps">
+      <ol class="instructions instructions--install">
         <li>Open the <span class="em">Extensions</span> sidebar in VS Code</li>
         <li>Search for Horizon and choose "Horizon Theme" by Jonathan Olaleye</li>
         <li>Click <span class="em">Install</span></li>
@@ -28,6 +28,27 @@
         <li>Navigate to File > Preferences > Color Theme and select <span class="em">Horizon</span></li>
         <li>You're all set! Enjoy! 🎉 P.S. Check out some of the tweaks below... :)</li>
       </ol>
+    </section>
+    <section>
+      <h1>Tweaks</h1>
+
+      <section class="font">
+        <h1>Font</h1>
+        <img class="font__preview" src="img/font.png" alt="">
+        <div class="instructions instructions--font">
+          <p>
+            The font used in the previews is <span class="em">Roboto Mono</span>.
+            You can download it <a href="https://fonts.google.com/specimen/Roboto+Mono">here</a>.
+          </p>
+          <p>After you've downloaded and installed it, open your editor's settings and add the following...</p>
+        </div>
+        <div class="code">
+          <code>
+            <span class="red">"editor.fontFamily"</span>: <span class="gold">"Roboto Mono"</span>
+          </code>
+        </div>
+      </section>
+
     </section>
   </main>
 </body>
