@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="icon.png" alt="" width="125">
+<img src="https://i.imgur.com/hbNOJqD.png" alt="" width="125">
 
 # Horizon
 
