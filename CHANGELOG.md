@@ -1,4 +1,9 @@
-# 1.3.0 - 9.14.18
+# 1.3.1 - 9.14.18
+- Updated icon
+- Returned to old README header
+- Updated gallery banner color
+
+## 1.3.0 - 9.14.18
 - Added Horizon Italic variant
 - Updated warning color in lists and editor squiggle
 - Changed some wording in the README
