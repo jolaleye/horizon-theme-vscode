@@ -84,3 +84,35 @@ body {
     }
   }
 }
+
+main {
+  padding: 1.5em 1em;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+section h1 {
+  font-family: $font-header;
+  font-weight: 200;
+  color: white;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.install__steps {
+  color: white;
+  font-family: $font-body;
+  font-weight: 300;
+  font-size: 0.7em;
+  list-style-position: inside;
+  padding: 0 2em;
+
+  & li {
+    margin-bottom: 0.75em;
+  }
+
+  & .em {
+    font-weight: 400;
+  }
+}
