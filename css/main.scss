@@ -21,13 +21,14 @@ body {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  padding: 1em 3em;
+  padding: 1.5em 3em;
+  padding-bottom: 0;
 }
 
 .header__logo {
   width: 6.5em;
   margin-bottom: 0.5em;
-  filter: drop-shadow(0 5px 20px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 5px 20px rgba(0, 0, 0, 0.40));
 }
 
 .header__title {
@@ -57,7 +58,7 @@ body {
 
   & a {
     width: 9em;
-    padding: 0.7em 1.5em;
+    padding: 0.75em 1.75em;
     background-color: $color-gray;
     color: white;
     text-align: center;
@@ -65,13 +66,21 @@ body {
     text-transform: uppercase;
     font-family: $font-body;
     font-weight: 300;
-    font-size: 0.75em;
+    font-size: 0.7em;
     border-radius: 5px;
     box-shadow: $shadow-btn;
+  }
+
+  & a:active {
+    background-color: darken($color-gray, 10%);
   }
   
   & a:first-child {
     margin-right: 1.5em;
     background-color: $color-accent;
+
+    &:active {
+      background-color: darken($color-accent, 5%);
+    }
   }
 }
