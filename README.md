@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="icon.png" alt="" width="140">
+<img src="icon.png" alt="" width="125">
 
 # Horizon
 
