@@ -11,6 +11,7 @@ $bgColor-code: #1C1E26;
 
 // misc colors
 $color-accent: #EC697A;
+$color-highlight: #ff7c8d;
 
 // syntax colors for snippets
 $syntax-red: #E95678;
@@ -46,8 +47,8 @@ section > h1 {
   margin-bottom: 0.5rem;
 }
 
-main > section {
-  margin-bottom: 2rem;
+section {
+  margin: 1rem 0;
 }
 
 .instructions {
@@ -55,16 +56,16 @@ main > section {
   font-family: $font-body;
   font-weight: 300;
   font-size: 0.8em;
-  padding: 0 1.5rem;
+  padding: 0 1.25rem;
 
   .em { font-weight: 400; }
 
   a {
     text-decoration: none;
-    color: $color-accent;
+    color: $color-highlight;
     font-weight: 400;
 
-    &:active { color: darken($color-accent, 5%); }
+    &:active { color: darken($color-highlight, 5%); }
   }
 }
 
@@ -84,9 +85,18 @@ main > section {
     font-family: $font-code;
     font-size: 0.75em;
 
-    .red { color: $syntax-red; }
+    .red { color:$syntax-red; }
     .gold { color: $syntax-gold; }
   }
+}
+
+// syntax fallback for shortcuts and such
+code {
+  color: $syntax-gold;
+}
+
+p {
+  margin-bottom: 1rem;
 }
 
 
@@ -165,6 +175,12 @@ main > section {
 }
 
 
+.instructions--tweaks {
+  margin-bottom: 2rem;
+  line-height: 1.2rem;
+}
+
+
 // Font tweak
 .font {
   display: flex;
@@ -176,10 +192,4 @@ main > section {
   width: 100%;
   box-shadow: $shadow-preview;
   margin-bottom: 1rem;
-}
-
-.instructions--font {
-  margin-bottom: 1rem;
-
-  p:first-child { margin-bottom: 1rem; }
 }
