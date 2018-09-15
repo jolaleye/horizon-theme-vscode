@@ -54,8 +54,8 @@ main > section {
   color: white;
   font-family: $font-body;
   font-weight: 300;
-  font-size: 0.7em;
-  padding: 0 2rem;
+  font-size: 0.8em;
+  padding: 0 1.5rem;
 
   .em { font-weight: 400; }
 
@@ -139,7 +139,6 @@ main > section {
     text-decoration: none;
     text-transform: uppercase;
     font-family: $font-body;
-    font-weight: 300;
     font-size: 0.7em;
     border-radius: 5px;
     box-shadow: $shadow-btn;
