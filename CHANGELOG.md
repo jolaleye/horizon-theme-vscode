@@ -1,4 +1,9 @@
-# 1.2.6 - 9.8.18
+# 1.3.0 - 9.14.18
+- Added Horizon Italic variant
+- Updated warning color in lists and editor squiggle
+- Changed some wording in the README
+
+## 1.2.6 - 9.8.18
 - Oops: Horizon was temporarily removed from the marketplace, but it's back! If you were already using Horizon, you may need to reinstall to continue recieving updates.
 
 ## 1.2.5 - 9.7.18
