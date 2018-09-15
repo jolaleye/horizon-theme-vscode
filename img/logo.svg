@@ -8,11 +8,17 @@
     <g clip-path="url(#_clip1)">
         <g>
             <path id="Ring" d="M125,30c52.432,0 95,42.568 95,95c0,52.432 -42.568,95 -95,95c-52.432,0 -95,-42.568 -95,-95c0,-52.432 42.568,-95 95,-95Zm0,14.25c44.567,0 80.75,36.183 80.75,80.75c0,44.567 -36.183,80.75 -80.75,80.75c-44.567,0 -80.75,-36.183 -80.75,-80.75c0,-44.567 36.183,-80.75 80.75,-80.75Z" style="fill:url(#_Linear2);"/>
-            <text id="Code" x="56.812px" y="149.696px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:76px;fill:url(#_Linear3);">&lt;/&gt;</text>
+            <g id="Code">
+                <path d="M75.106,125.687l-2.523,0.927l2.523,0.891l20.336,6.791l0,10.057l-32.841,-13.62l0,-8.349l32.841,-13.619l0,10.019l-20.336,6.903Z" style="fill:url(#_Linear3);fill-rule:nonzero;"/>
+                <path d="M120.194,154.335l-9.611,0l20.225,-58.67l9.611,0l-20.225,58.67Z" style="fill:url(#_Linear4);fill-rule:nonzero;"/>
+                <path d="M154.001,118.747l0,-9.982l33.398,13.582l0,8.424l-33.398,13.619l0,-10.02l21.264,-7.125l2.263,-0.742l-2.226,-0.742l-21.301,-7.014Z" style="fill:url(#_Linear5);fill-rule:nonzero;"/>
+            </g>
         </g>
     </g>
     <defs>
         <linearGradient id="_Linear2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(136,125,-125,136,54,65)"><stop offset="0" style="stop-color:#db6fbb;stop-opacity:1"/><stop offset="0.28" style="stop-color:#e95678;stop-opacity:1"/><stop offset="0.56" style="stop-color:#f0857e;stop-opacity:1"/><stop offset="0.84" style="stop-color:#fab38e;stop-opacity:1"/><stop offset="1" style="stop-color:#fac19a;stop-opacity:1"/></linearGradient>
         <linearGradient id="_Linear3" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(136,125,-125,136,56.3401,64.208)"><stop offset="0" style="stop-color:#db6fbb;stop-opacity:1"/><stop offset="0.28" style="stop-color:#e95678;stop-opacity:1"/><stop offset="0.56" style="stop-color:#f0857e;stop-opacity:1"/><stop offset="0.84" style="stop-color:#fab38e;stop-opacity:1"/><stop offset="1" style="stop-color:#fac19a;stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear4" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(136,125,-125,136,56.3401,64.208)"><stop offset="0" style="stop-color:#db6fbb;stop-opacity:1"/><stop offset="0.28" style="stop-color:#e95678;stop-opacity:1"/><stop offset="0.56" style="stop-color:#f0857e;stop-opacity:1"/><stop offset="0.84" style="stop-color:#fab38e;stop-opacity:1"/><stop offset="1" style="stop-color:#fac19a;stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear5" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(136,125,-125,136,56.3401,64.208)"><stop offset="0" style="stop-color:#db6fbb;stop-opacity:1"/><stop offset="0.28" style="stop-color:#e95678;stop-opacity:1"/><stop offset="0.56" style="stop-color:#f0857e;stop-opacity:1"/><stop offset="0.84" style="stop-color:#fab38e;stop-opacity:1"/><stop offset="1" style="stop-color:#fac19a;stop-opacity:1"/></linearGradient>
     </defs>
 </svg>
