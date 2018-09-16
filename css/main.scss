@@ -6,8 +6,8 @@
 
 // background colors
 $bgColor: #1E2028;
-$bgColor-alternate: #2F3138;
-$bgColor-code: #1C1E26;
+$bgColor-alternate: #1C1E26;
+$bgColor-other: #2F3138;
 
 // misc colors
 $color-accent: #EC697A;
@@ -76,7 +76,7 @@ body {
   a {
     width: 8rem;
     padding: 0.75rem 1.75rem;
-    background-color: $bgColor-alternate;
+    background-color: $bgColor-other;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -88,7 +88,7 @@ body {
   }
 
   a:active {
-    background-color: darken($bgColor-alternate, 3%);
+    background-color: darken($bgColor-other, 3%);
   }
   
   a:first-child {
@@ -113,10 +113,6 @@ section > h1 {
   color: white;
   text-align: center;
   margin-bottom: 0.5rem;
-}
-
-section {
-  margin: 1.5rem 0;
 }
 
 // general text
@@ -149,6 +145,10 @@ p {
 
 
 // Installation
+.install {
+  margin: 1.5rem 0;
+}
+
 .detail--install {
   list-style-position: inside;
 
@@ -157,6 +157,10 @@ p {
 
 
 // Tweaks
+.tweaks {
+  margin-top: 1.5rem;
+}
+
 .tweak {
   display: flex;
   flex-flow: column nowrap;
@@ -180,7 +184,7 @@ p {
   margin: 0.5rem 0;
   padding: 0.75rem 1rem;
   box-shadow: $shadow-code;
-  background-color: $bgColor-code;
+  background-color: $bgColor-alternate;
   border-radius: 10px;
   display: flex;
   flex-flow: column nowrap;
@@ -193,5 +197,25 @@ p {
 
     .red { color: $syntax-red; }
     .gold { color: $syntax-gold; }
+  }
+}
+
+
+footer {
+  width: 100%;
+  height: 4rem;
+  background-color: $bgColor-alternate;
+  color: white;
+  font-family: $font-body;
+  font-weight: 300;
+  font-size: 0.75em;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    color: $color-highlight;
+    text-decoration: none;
   }
 }
