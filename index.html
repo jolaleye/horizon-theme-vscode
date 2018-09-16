@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400|Open+Sans:300,400|Roboto+Mono" rel="stylesheet">
 </head>
 <body>
+
   <header class="header">
     <img class="header__logo" src="/img/logo.svg" alt="">
     <h1 class="header__title">Horizon</h1>
@@ -17,10 +18,11 @@
       <a href="https://github.com/jolaleye/horizon-theme-vscode">GitHub</a>
     </div>
   </header>
+
   <main>
-    <section>
+    <section class="install">
       <h1>Installation</h1>
-      <ol class="instructions instructions--install">
+      <ol class="detail detail--install">
         <li>Open the <span class="em">Extensions</span> sidebar in VS Code</li>
         <li>Search for Horizon and choose "Horizon Theme" by Jonathan Olaleye</li>
         <li>Click <span class="em">Install</span></li>
@@ -29,9 +31,10 @@
         <li>You're all set! Enjoy! 🎉</li>
       </ol>
     </section>
+
     <section class="tweaks">
       <h1>Tweaks</h1>
-      <div class="instructions instructions--tweaks">
+      <div class="detail detail--tweaks">
         <p>
           Everyone has their own tastes which is why I've added a few tweaks that you can make to enjoy Horizon even more 😄.
           Each tweak only requires that you open your editor's JSON settings and copy & paste the snippet.
@@ -48,14 +51,14 @@
       <section class="tweak">
         <h1>Font</h1>
         <img class="tweak__preview" src="img/font.png" alt="">
-        <div class="instructions">
+        <div class="detail">
           <p>
             The font used in the previews is <span class="em">Roboto Mono</span>,
             available on <a href="https://fonts.google.com/specimen/Roboto+Mono">Google Fonts</a>.
           </p>
           <p>After you've downloaded and installed it, open your editor's settings and add the following...</p>
         </div>
-        <div class="snippet">
+        <div class="tweak__snippet">
           <code>
             <span class="red">"editor.fontFamily"</span>: <span class="gold">"Roboto Mono"</span>
           </code>
@@ -65,7 +68,7 @@
       <section class="tweak">
         <h1>Sidebar Contrast</h1>
         <img class="tweak__preview" src="img/contrast.png" alt="">
-        <div class="instructions">
+        <div class="detail">
           <p>
             Horizon has a seamless appearance across the different elements of VS Code.
             If you would like to add borders or tweak background colors you can do so in your editor's settings.
@@ -74,7 +77,7 @@
             The following is my recommendation for sidebar contrast, but feel free to use whatever colors you want.
           </p>
         </div>
-        <div class="snippet">
+        <div class="tweak__snippet">
           <pre><code>
 <!--     --><span class="red">"workbench.colorCustomizations"</span> : {
 <!--     -->  <span class="red">"activityBar.background"</span>: <span class="gold">"#1E2028"</span>,

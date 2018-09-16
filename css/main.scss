@@ -32,73 +32,6 @@ body {
   background-color: $bgColor;
 }
 
-main {
-  padding: 1.5rem 1rem;
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
-}
-
-section > h1 {
-  font-family: $font-header;
-  font-weight: 200;
-  color: white;
-  text-align: center;
-  margin-bottom: 0.5rem;
-}
-
-section {
-  margin: 1rem 0;
-}
-
-.instructions {
-  color: white;
-  font-family: $font-body;
-  font-weight: 300;
-  font-size: 0.8em;
-  padding: 0 1.25rem;
-
-  .em { font-weight: 400; }
-
-  a {
-    text-decoration: none;
-    color: $color-highlight;
-    font-weight: 400;
-
-    &:active { color: darken($color-highlight, 5%); }
-  }
-}
-
-.code {
-  width: 100%;
-  color: #BBBBBB;
-  margin: 0.5rem 0;
-  padding: 0.75rem 1rem;
-  box-shadow: $shadow-code;
-  background-color: $bgColor-code;
-  border-radius: 10px;
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
-
-  code {
-    font-family: $font-code;
-    font-size: 0.75em;
-
-    .red { color:$syntax-red; }
-    .gold { color: $syntax-gold; }
-  }
-}
-
-// syntax fallback for shortcuts and such
-code {
-  color: $syntax-gold;
-}
-
-p {
-  margin-bottom: 1rem;
-}
-
 
 // Header: logo, name, description, links
 .header {
@@ -167,29 +100,98 @@ p {
 }
 
 
+main {
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+section > h1 {
+  font-family: $font-header;
+  font-weight: 200;
+  color: white;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+section {
+  margin: 1.5rem 0;
+}
+
+// general text
+.detail {
+  color: white;
+  font-family: $font-body;
+  font-weight: 300;
+  font-size: 0.8em;
+  padding: 0 1.25rem;
+  line-height: 1.3rem;
+
+  .em { font-weight: 400; }
+
+  a {
+    text-decoration: none;
+    color: $color-highlight;
+    font-weight: 400;
+
+    &:active { color: darken($color-highlight, 5%); }
+  }
+}
+
+code.short {
+  color: $syntax-gold;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+
 // Installation
-.instructions--install {
+.detail--install {
   list-style-position: inside;
 
   li { margin-bottom: 0.75rem; }
 }
 
 
-.instructions--tweaks {
-  margin-bottom: 2rem;
-  line-height: 1.2rem;
-}
-
-
-// Font tweak
-.font {
+// Tweaks
+.tweak {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
+  margin: 2.5rem 0;
+
+  & > h1 {
+    margin-bottom: 1rem;
+  }
 }
 
-.font__preview {
+.tweak__preview {
   width: 100%;
   box-shadow: $shadow-preview;
   margin-bottom: 1rem;
+}
+
+.tweak__snippet {
+  width: 100%;
+  color: #BBBBBB;
+  margin: 0.5rem 0;
+  padding: 0.75rem 1rem;
+  box-shadow: $shadow-code;
+  background-color: $bgColor-code;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+
+  code {
+    font-family: $font-code;
+    font-size: 0.75em;
+    color: #BBBBBB;
+
+    .red { color: $syntax-red; }
+    .gold { color: $syntax-gold; }
+  }
 }
