@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "start": "parcel index.html --out-dir build --no-autoinstall",
-    "build": "parcel build index.html --out-dir build"
+    "build": "parcel build index.html --out-dir build",
+    "build:gh": "parcel build index.html --out-dir docs"
   },
   "devDependencies": {
     "node-sass": "^4.9.3",
