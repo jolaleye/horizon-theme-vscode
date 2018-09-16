@@ -89,6 +89,32 @@
         </div>
       </section>
 
+      <section class="tweak">
+        <h1>Tag Brackets</h1>
+        <img class="tweak__preview" src="img/brackets.png" alt="">
+        <div class="detail">
+          <p>To customize the color of brackets <code class="short"><></code> around HTML tags, add the following to your settings...</p>
+        </div>
+        <div class="tweak__snippet">
+          <pre><code>
+<!--     --><span class="red">"editor.tokenColorCustomizations"</span>: {
+<!--     -->  <span class="red">"textMateRules"</span>: [
+<!--     -->    {
+<!--     -->      <span class="red">"name"</span>: <span class="gold">"Tag brackets"</span>,
+<!--     -->      <span class="red">"scope"</span>: [
+<!--     -->        <span class="gold">"punctuation.definition.tag.begin"</span>,
+<!--     -->        <span class="gold">"punctuation.definition.tag.end"</span>
+<!--     -->      ],
+<!--     -->      <span class="red">"settings"</span>: {
+<!--     -->        <span class="red">"foreground"</span>: <span class="gold">"#BBBBBB"</span>
+<!--     -->      }
+<!--     -->    }
+<!--     -->  ]
+<!--     -->}
+          </code></pre>
+        </div>
+      </section>
+
     </section>
   </main>
 </body>
