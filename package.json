@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel index.html --out-dir build --no-autoinstall",
     "build": "parcel build index.html --out-dir build",
-    "build:gh": "parcel build index.html --out-dir docs"
+    "build:gh": "parcel build index.html --out-dir docs --public-url /horizon"
   },
   "devDependencies": {
     "node-sass": "^4.9.3",
