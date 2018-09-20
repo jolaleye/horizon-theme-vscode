@@ -1,18 +1,15 @@
 # 1.3.1 - 9.14.18
 - Updated icon
-- Returned to old README header
-- Updated gallery banner color
+- Returned to the old README header
+- Updated marketplace banner color
 
 ## 1.3.0 - 9.14.18
 - Added Horizon Italic variant
 - Updated warning color in lists and editor squiggle
 - Changed some wording in the README
 
-## 1.2.6 - 9.8.18
-- Oops: Horizon was temporarily removed from the marketplace, but it's back! If you were already using Horizon, you may need to reinstall to continue recieving updates.
-
 ## 1.2.5 - 9.7.18
-- Added instructions for making tweaks (found in the README) with the addition of the settings UI
+- Added instructions for making tweaks to the README
 
 ## 1.2.4 - 9.1.18
 - Fixed color for ignored Git resources
