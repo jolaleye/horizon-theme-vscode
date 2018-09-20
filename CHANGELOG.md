@@ -1,4 +1,7 @@
-# 1.3.1 - 9.14.18
+# 1.3.2 - 9.20.18
+- Finished Horizon homepage (check it out: https://jolaleye.github.io/horizon)
+
+## 1.3.1 - 9.14.18
 - Updated icon
 - Returned to the old README header
 - Updated marketplace banner color
