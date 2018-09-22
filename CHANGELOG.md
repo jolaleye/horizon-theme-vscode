@@ -1,4 +1,8 @@
-# 1.3.2 - 9.20.18
+# 1.3.3 - 9.22.18
+- Increased opacity of line numbers
+- Increased contrast of selection highlights
+
+## 1.3.2 - 9.20.18
 - Finished Horizon homepage (check it out: https://jolaleye.github.io/horizon)
 
 ## 1.3.1 - 9.14.18
