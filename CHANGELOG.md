@@ -1,4 +1,7 @@
-# 1.3.3 - 9.22.18
+# 1.3.4 - 9.23.18
+- Fixed C++ operator coloring
+
+## 1.3.3 - 9.22.18
 - Increased opacity of line numbers
 - Increased contrast of selection highlights
 
