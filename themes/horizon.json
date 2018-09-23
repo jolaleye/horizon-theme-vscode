@@ -458,6 +458,13 @@
 			"settings": {
 				"foreground": "#E95678E6"
 			}
+		},
+		{
+			"name": "C++ operators",
+			"scope": "source.cpp keyword.operator",
+			"settings": {
+				"foreground": "#B877DBE6"
+			}
 		}
 	]
 }
