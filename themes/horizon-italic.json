@@ -133,7 +133,7 @@
 				"punctuation.definition.string"
 			],
 			"settings": {
-				"foreground": "#FAB98EE6"
+				"foreground": "#FAB795E6"
 			}
 		},
 		{
@@ -147,7 +147,7 @@
 			"name": "Language variable",
 			"scope": "variable.language",
 			"settings": {
-				"foreground": "#FAC19AE6",
+				"foreground": "#FAC29AE6",
 				"fontStyle": "italic"
 			}
 		},
@@ -201,7 +201,7 @@
 			"name": "Entity (data interfaces)",
 			"scope": "entity.name",
 			"settings": {
-				"foreground": "#FAC19AE6"
+				"foreground": "#FAC29AE6"
 			}
 		},
 		{
@@ -233,14 +233,14 @@
 			"name": "Class",
 			"scope": "entity.name.type",
 			"settings": {
-				"foreground": "#FAC19AE6"
+				"foreground": "#FAC29AE6"
 			}
 		},
 		{
 			"name": "Inherited class",
 			"scope": "entity.other.inherited-class",
 			"settings": {
-				"foreground": "#FAB98EE6"
+				"foreground": "#FAB795E6"
 			}
 		},
 		{
@@ -297,7 +297,7 @@
 			"name": "Support",
 			"scope": "support",
 			"settings": {
-				"foreground": "#FAC19AE6"
+				"foreground": "#FAC29AE6"
 			}
 		},
 		{
@@ -383,14 +383,14 @@
 				"entity.other.attribute-name.pseudo-class"
 			],
 			"settings": {
-				"foreground": "#FAB98EE6"
+				"foreground": "#FAB795E6"
 			}
 		},
 		{
 			"name": "CSS support functions (rgb)",
 			"scope": "support.function.misc.css",
 			"settings": {
-				"foreground": "#FAC19AE6"
+				"foreground": "#FAC29AE6"
 			}
 		},
 		{
@@ -422,7 +422,7 @@
 			"name": "Markup link",
 			"scope": "markup.underline.link",
 			"settings": {
-				"foreground": "#FAB98EE6"
+				"foreground": "#FAB795E6"
 			}
 		},
 		{
@@ -443,7 +443,7 @@
 			"name": "C# storage type",
 			"scope": "storage.type.cs",
 			"settings": {
-				"foreground": "#FAC19AE6"
+				"foreground": "#FAC29AE6"
 			}
 		},
 		{
