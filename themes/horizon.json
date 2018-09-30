@@ -125,10 +125,10 @@
 		"terminalCursor.background": "#D5D8DA",
 		"terminalCursor.foreground": "#6C6F9399",
 		"walkThrough.embeddedEditorBackground": "#232530",
-		"gitDecoration.addedResourceForeground": "#09F7A0A6",
+		"gitDecoration.addedResourceForeground": "#27D797CC",
 		"gitDecoration.modifiedResourceForeground": "#FAC39A",
 		"gitDecoration.deletedResourceForeground": "#F43E5C",
-		"gitDecoration.untrackedResourceForeground": "#09F7A0BF",
+		"gitDecoration.untrackedResourceForeground": "#27D797",
 		"gitDecoration.ignoredResourceForeground": "#D5D8DA59",
 		"breadcrumbPicker.background": "#232530"
 	},
