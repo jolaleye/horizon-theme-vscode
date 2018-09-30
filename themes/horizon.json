@@ -81,7 +81,7 @@
 		"editorOverviewRuler.bracketMatchForeground": "#D5D8DA66",
 		"editorWarning.foreground": "#00CD68CC",
 		"editorGutter.modifiedBackground": "#21BFC2B3",
-		"editorGutter.addedBackground": "#09f7a0B3",
+		"editorGutter.addedBackground": "#09F7A0A6",
 		"editorGutter.deletedBackground": "#F43E5CB3",
 		"diffEditor.insertedTextBackground": "#09F7A01A",
 		"diffEditor.removedTextBackground": "#F43E5C1A",
