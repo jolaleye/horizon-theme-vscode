@@ -1,4 +1,14 @@
-# 1.3.4 - 9.23.18
+# 1.4.0 - 9.30.18
+- Themed integrated terminal
+- Tweaked yellow (e.g. classes) and gold (strings) colors to increase the contrast between the two
+- Updated Git decoration colors for added, modified, and untracked resources
+- Slightly reduced opacity of editor gutter addition highlights
+- Fixed editor block cursor
+- Updated error and warning squiggle colors
+- Updated error and warning color in lists
+- Updated warning color in the editor overview ruler
+
+## 1.3.4 - 9.23.18
 - Fixed C++ operator coloring
 
 ## 1.3.3 - 9.22.18
