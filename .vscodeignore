@@ -1,3 +1,4 @@
-.vscode/**
+.vscode
 .gitignore
-demos/**
+demos
+docs

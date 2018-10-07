@@ -1,0 +1,402 @@
+*, *:before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// background colors
+$bgColor: #1E2028;
+$bgColor-alternate: #1C1E26;
+$bgColor-other: #2F3138;
+
+// misc colors
+$color-accent: #EC697A;
+$color-highlight: #ff7c8d;
+
+// syntax colors for snippets
+$syntax-red: #E95678;
+$syntax-gold: #FAB98E;
+
+// fonts
+$font-header: 'Montserrat', sans-serif;
+$font-body: 'Open Sans', sans-serif;
+$font-code: 'Roboto Mono', monospace;
+
+// shadows
+$shadow-btn: 0 5px 20px rgba(0, 0, 0, 0.15);
+$shadow-preview: 0 5px 20px rgba(0, 0, 0, 0.25);
+$shadow-code: 0 5px 20px rgba(0, 0, 0, 0.15);
+
+
+body {
+  background-color: $bgColor;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+
+// Header: logo, name, description, links
+.header {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  padding-bottom: 0;
+}
+
+.header__logo {
+  width: 6.5rem;
+  margin-bottom: 0.5em;
+  filter: drop-shadow(0 5px 20px rgba(0, 0, 0, 0.40));
+}
+
+.header__content {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.header__title {
+  color: white;
+  font-family: $font-header;
+  font-weight: 300;
+  font-size: 2.3em;
+  text-transform: uppercase;
+  margin-bottom: 0.3rem;
+
+  &::first-letter {
+    font-size: 1.25em;
+  }
+}
+
+.header__description {
+  color: white;
+  font-family: $font-header;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.header__links {
+  display: flex;
+  justify-content: center;
+
+  a {
+    padding: 0.75rem 1.75rem;
+    background-color: $bgColor-other;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: $font-body;
+    font-size: 0.8em;
+    border-radius: 5px;
+    box-shadow: $shadow-btn;
+  }
+
+  a:active {
+    background-color: darken($bgColor-other, 3%);
+  }
+  
+  a:first-child {
+    margin-right: 1.5rem;
+    background-color: $color-accent;
+
+    &:active { background-color: darken($color-accent, 3%); }
+  }
+}
+
+
+main {
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+section {
+  width: 100%;
+  max-width: 100%;
+  margin: 2rem 0;
+}
+
+section > h1 {
+  width: 100%;
+  font-family: $font-header;
+  font-weight: 200;
+  font-size: 1.75em;
+  color: white;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+// general text
+.detail {
+  color: white;
+  font-family: $font-body;
+  font-weight: 300;
+  font-size: 0.95em;
+  padding: 0 1.25rem;
+  line-height: 1.6;
+
+  .em { font-weight: 400; }
+
+  a {
+    text-decoration: none;
+    color: $color-highlight;
+    font-weight: 400;
+
+    &:active { color: darken($color-highlight, 5%); }
+  }
+}
+
+code.short {
+  color: $syntax-gold;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+
+// Installation
+.detail--install {
+  list-style-position: inside;
+
+  li { margin-bottom: 0.75rem; }
+}
+
+
+// Tweaks
+.tweak {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+
+  & > h1 {
+    margin-bottom: 1rem;
+  }
+}
+
+.tweak__preview {
+  width: 100%;
+  box-shadow: $shadow-preview;
+  margin-bottom: 1rem;
+}
+
+.tweak__snippet {
+  width: 100%;
+  max-width: 30rem;
+  color: #BBBBBB;
+  margin: 0.5rem 0;
+  padding: 0.75rem 1rem;
+  box-shadow: $shadow-code;
+  background-color: $bgColor-alternate;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+
+  code {
+    font-family: $font-code;
+    font-size: 0.8em;
+    color: #BBBBBB;
+
+    .red { color: $syntax-red; }
+    .gold { color: $syntax-gold; }
+  }
+}
+
+
+footer {
+  width: 100%;
+  height: 4rem;
+  background-color: $bgColor-alternate;
+  color: white;
+  font-family: $font-body;
+  font-weight: 300;
+  font-size: 0.9em;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    color: $color-highlight;
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 37.5em) {
+  .header, main {
+    width: 37.5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 56.25em) {
+  .header {
+    width: 100vw;
+    height: 75vh;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header__logo {
+    width: 10rem;
+    margin: 0;
+    margin-right: 2rem;
+  }
+
+  .header__content {
+    width: 25rem;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .header__title {
+    font-size: 2.6em;
+  }
+
+  .header__description {
+    font-size: 1.6em;
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+
+  .header__links a {
+    font-size: 1em;
+  }
+
+  main {
+    width: 40rem;
+  }
+
+  section {
+    margin: 2.5rem 0;
+  }
+
+  section > h1 {
+    font-size: 2em;
+  }
+
+  .detail {
+    font-size: 1.1em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .tweak__snippet {
+    max-width: 35rem;
+
+    code {
+      font-size: 0.9em;
+    }
+  }
+
+  footer {
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-width: 75em) {
+  .header__logo {
+    width: 12rem;
+  }
+
+  .header__content {
+    width: 30rem;
+  }
+
+  .header__title {
+    font-size: 2.75em;
+  }
+
+  .header__description {
+    font-size: 1.8em;
+    margin-bottom: 1rem;
+  }
+
+  .header__links a {
+    width: 12rem;
+    font-size: 1em;
+  }
+
+  main {
+    width: 45rem;
+  }
+
+  section > h1 {
+    font-size: 2.2em;
+  }
+
+  .detail {
+    font-size: 1.2em;
+  }
+
+  .tweak__snippet {
+    max-width: 40rem;
+
+    code {
+      font-size: 1em;
+    }
+  }
+
+  footer {
+    font-size: 1em;
+    height: 5rem;
+  }
+}
+
+@media screen and (min-width: 93em) {
+  .header__logo {
+    width: 15rem;
+    margin-right: 2.3rem;
+  }
+
+  .header__content {
+    width: 40rem;
+  }
+
+  .header__title {
+    font-size: 3.2em;
+  }
+
+  .header__description {
+    font-size: 2.2em;
+    margin-bottom: 1.8rem;
+  }
+
+  .header__links a {
+    width: 14rem;
+    padding: 1rem 1.5rem;
+    font-size: 1.2em;
+  }
+
+  main {
+    width: 55rem;
+  }
+
+  section > h1 {
+    font-size: 2.5em;
+  }
+
+  .detail {
+    font-size: 1.4em;
+  }
+
+  .tweak__snippet {
+    max-width: 48rem;
+
+    code {
+      font-size: 1.2em;
+    }
+  }
+
+  footer {
+    font-size: 1.2em;
+  }
+}
