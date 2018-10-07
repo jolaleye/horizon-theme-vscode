@@ -24,6 +24,9 @@ for (let i = 0; i < 10; i++) {
   makeBanana();
 }
 
+const regex = /banana/;
+const regexdos = /[.*+?^${}()|[\]\\]/g;
+
 if (true) {}
 while (true) {}
 
