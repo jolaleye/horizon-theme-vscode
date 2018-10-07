@@ -304,7 +304,7 @@
 			"name": "Special operator",
 			"scope": [
 				"keyword.operator.new",
-				"keyword.operator.expression.typeof",
+				"keyword.operator.expression",
 				"keyword.operator.logical"
 			],
 			"settings": {
