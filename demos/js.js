@@ -23,6 +23,8 @@ function makeBanana(num) {}
 for (let i = 0; i < 10; i++) {
   makeBanana();
 }
+for (const thing of stuff) {}
+for (let thing in stuff) {}
 
 const regex = /banana/;
 const regexdos = /[.*+?^${}()|[\]\\]/g;
