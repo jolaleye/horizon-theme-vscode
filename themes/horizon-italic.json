@@ -195,6 +195,13 @@
 			}
 		},
 		{
+			"name": "Regex",
+			"scope": "string.regexp",
+			"settings": {
+				"foreground": "#F09483E6"
+			}
+		},
+		{
 			"name": "Number",
 			"scope": "constant.numeric",
 			"settings": {
