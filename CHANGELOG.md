@@ -1,4 +1,8 @@
-# 1.4.0 - 9.30.18
+# 1.4.1 - 10.7.18
+- Fixed regex highlighting
+- Fixed expression keyword highlighting
+
+## 1.4.0 - 9.30.18
 - Themed integrated terminal
 - Tweaked yellow (e.g. classes) and gold (strings) colors to increase the contrast between the two
 - Updated Git decoration colors for added, modified, and untracked resources
