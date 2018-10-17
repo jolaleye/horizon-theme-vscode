@@ -7,18 +7,21 @@
   "publisher": "jolaleye",
   "license": "MIT",
   "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.26.0"
+  },
   "galleryBanner": {
     "color": "#1E2028",
     "theme": "dark"
-  },
-  "engines": {
-    "vscode": "^1.26.0"
   },
   "categories": [
     "Themes"
   ],
   "keywords": [
-    "theme", "dark", "horizon", "warm"
+    "theme",
+    "dark",
+    "horizon",
+    "warm"
   ],
   "contributes": {
     "themes": [
@@ -38,7 +41,7 @@
     "type": "git",
     "url": "https://github.com/jolaleye/horizon-theme-vscode"
   },
-  "homepage": "https://jolaleye.github.io/horizon",
+  "homepage": "https://github.com/jolaleye/horizon-theme-vscode",
   "bugs": {
     "url": "https://github.com/jolaleye/horizon-theme-vscode/issues"
   }
