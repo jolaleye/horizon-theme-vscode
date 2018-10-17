@@ -1,4 +1,4 @@
-# Contributing to Horizon :sunny:
+# Contributing to Horizon
 
 :tada: First of all, thank you for considering contributing! :tada:
 
@@ -20,11 +20,11 @@ Before you open a new issue, check to see if the problem has [already been repor
 
 When you open an issue, try to be as descriptive as possible. Add any relevant screenshots so that the problem can be identified quickly.
 
-It would also be incredibly helpful if you provided potential solutions to the problem; especially if it is more complicated than a missing syntax color. If you would like to see expanded language support, consider creating a short demo like the ones found in [demos](https://github.com/jolaleye/horizon-theme-vscode/tree/master/demos).
+For complex and/or broad issues such as language support, consider creating a short demo like the ones found in [demos](https://github.com/jolaleye/horizon-theme-vscode/tree/master/demos). Creating a demo is incredibly helpful and will speed up the development process.
 
 ### :sparkles: Opening a Pull Request
 
-A lot of the following information was inspired by [opensource.guide](https://opensource.guide/how-to-contribute/), a great site to learn all about open source software.
+> A lot of the following information was inspired by [opensource.guide](https://opensource.guide/how-to-contribute/), a great site to learn all about open source software.
 
 If you've fixed a bug, started working on an enhancement, or done something else, you can [create a pull request](https://github.com/jolaleye/horizon-theme-vscode/pulls) to start a conversation about your changes.
 
