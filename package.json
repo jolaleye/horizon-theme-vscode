@@ -6,7 +6,7 @@
   "description": "A beautifully warm dark theme for Visual Studio Code",
   "publisher": "jolaleye",
   "license": "MIT",
-  "icon": "icon.png",
+  "icon": "logo.png",
   "engines": {
     "vscode": "^1.26.0"
   },
