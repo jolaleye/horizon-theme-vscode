@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-  <img alt="preview" src="https://i.imgur.com/y0gi1ez.png" width="85%">
+  <img alt="preview" src="https://i.imgur.com/y0gi1ez.png" width="90%">
 </p>
 
 > The preview above shows the _Horizon_ theme with the _Roboto Mono_ font. Horizon also includes a _Horizon Italic_ variant.
