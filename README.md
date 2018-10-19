@@ -10,7 +10,7 @@
     <img alt="marketplace version" src="https://img.shields.io/vscode-marketplace/v/jolaleye.horizon-theme-vscode.svg?maxAge=3600&style=for-the-badge&colorA=1C1E26&colorB=FAB38E">
   </a>
   <!-- installs -->
-  <a href="">
+  <a href="https://marketplace.visualstudio.com/items?itemName=jolaleye.horizon-theme-vscode">
     <img alt="installs" src="https://vsmarketplacebadge.apphb.com/installs-short/jolaleye.horizon-theme-vscode.svg?maxAge=3600&style=for-the-badge&colorA=1C1E26&colorB=FAB38E">
   </a>
   <!-- rating -->
