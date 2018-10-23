@@ -32,7 +32,7 @@
 3. Click **Install** and **Reload**
 4. Open the **Command Palette** with `Ctrl+Shift+P`
 5. Select **Preferences: Color Theme** and choose a Horizon variant.
-6. Enjoy! :tada: Also, check out some of the personalization options below...
+6. Enjoy! 🎉 Also, check out some of the personalization options below...
 
 ## Personalization
 
