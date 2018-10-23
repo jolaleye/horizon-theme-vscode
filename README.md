@@ -84,4 +84,4 @@ Read the contributing guide to learn about how you can report issues and contrib
 
 ## License
 
-[MIT](LICENSE.md) © [Jonathan Olaleye](https://github.com/jolaleye)
+[MIT](LICENSE) © [Jonathan Olaleye](https://github.com/jolaleye)
