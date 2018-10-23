@@ -2,6 +2,12 @@
 
 All notable changes to Horizon will be documented in this file.
 
+## 1.5.1 (October 23, 2018)
+
+- Fix license link ([a6be973](https://github.com/jolaleye/horizon-theme-vscode/commit/a6be973))
+- Fix README emojis for platforms other than GitHub ([e972e72](https://github.com/jolaleye/horizon-theme-vscode/commit/e972e72))
+- Fix install count badge link ([e619e20](https://github.com/jolaleye/horizon-theme-vscode/commit/e619e20))
+
 ## 1.5.0 (October 18, 2018)
 
 - New logo ([179162d](https://github.com/jolaleye/horizon-theme-vscode/commit/179162d))
