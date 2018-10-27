@@ -1,2 +1,4 @@
 node_modules
 *.vsix
+docs/.sass-cache
+docs/_site
