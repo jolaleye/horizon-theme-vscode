@@ -60,10 +60,7 @@ For more info on theming, visit the [Extension Authoring Guide](https://code.vis
   "textMateRules": [
     {
       "name": "HTML tag brackets",
-      "scope": [
-        "punctuation.definition.tag.begin",
-        "punctuation.definition.tag.end"
-      ],
+      "scope": ["punctuation.definition.tag"],
       "settings": {
         "foreground": "#BBBBBB"
       }
