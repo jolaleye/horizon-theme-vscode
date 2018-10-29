@@ -2,6 +2,11 @@
 
 All notable changes to Horizon will be documented in this file.
 
+## 1.5.2 (October 29, 2018)
+
+- Generalize tag `</>` highlighting (fixes tags in XML) ([f710bc4](https://github.com/jolaleye/horizon-theme-vscode/commit/f710bc4))
+- Update tag personalization tip to match [f710bc4](https://github.com/jolaleye/horizon-theme-vscode/commit/f710bc4) ([9796816](https://github.com/jolaleye/horizon-theme-vscode/commit/9796816))
+
 ## 1.5.1 (October 23, 2018)
 
 - Fix license link ([a6be973](https://github.com/jolaleye/horizon-theme-vscode/commit/a6be973))
