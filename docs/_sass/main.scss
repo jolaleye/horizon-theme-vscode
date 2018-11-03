@@ -6,8 +6,10 @@
   box-sizing: border-box;
 }
 
+$color-bg: #fceae5;
+
 body {
-  background-color: #fceae5;
+  background-color: $color-bg;
 }
 
 .logo {
@@ -17,4 +19,17 @@ body {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -70%);
+
+  &__cover {
+    fill: $color-bg !important;
+  }
+
+  &__sun {
+    transform: translateY(25%);
+    animation: 4.5s ease sun 0.5s forwards;
+  }
+
+  &__reflections {
+    opacity: 0;
+  }
 }
