@@ -24,11 +24,6 @@ body {
     fill: $color-bg !important;
   }
 
-  &__sun {
-    transform: translateY(25%);
-    animation: 4.5s ease sun 0.5s forwards;
-  }
-
   &__reflections {
     opacity: 0;
   }

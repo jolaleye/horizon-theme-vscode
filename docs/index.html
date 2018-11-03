@@ -10,7 +10,7 @@
   <!-- CSS entry point -->
   <link rel="stylesheet" href="core.css">
 
-  <!-- Favicon (courtesy of realfavicongenerator) -->
+  <!-- Icon -->
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -21,6 +21,7 @@
 </head>
 
 <body>
+  <!-- animated Horizon logo -->
   <svg class="logo" viewBox="0 0 250 236" xmlns="http://www.w3.org/2000/svg" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
     <defs>
       <!-- animated sky gradient -->
@@ -46,12 +47,18 @@
 
     <path class="logo__sky" d="M250,125.5c0,-69.035 -55.964,-125 -125,-125c-69.036,0 -125,55.965 -125,125l125,0l125,0Z"
       style="fill:url(#skyGradient);" />
+
     <g class="logo__sun" clip-path="url(#sunClip)">
-      <circle cx="125" cy="118" r="47.5" style="fill:#1c1e26;" />
+      <circle cx="125" cy="118" r="47.5" transform="translate(0 65)" style="fill:#1c1e26;">
+        <animateTransform attributeName="transform" type="translate" from="0 65" to="0 0" fill="freeze" dur="4.25s"
+          begin="0.5s" calcMode="spline" keyTimes="0;1" keySplines="0.0 0.0 0.58 1.0" />
+      </circle>
     </g>
+
     <!-- hides the sun before it rises -->
     <path class="logo__cover" d="M250,125.5c0,69.036 -55.964,125 -125,125c-69.036,0 -125,-55.964 -125,-125l125,0l125,0Z"
       style="fill:#fceae5;" />
+
     <g class="logo__reflections">
       <path d="M3,135.5l244,0" style="fill:none;stroke:#1c1e26;stroke-width:5px;" />
       <path d="M69,143.5l176,0" style="fill:none;stroke:#1c1e26;stroke-width:5px;" />
