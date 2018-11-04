@@ -18,8 +18,8 @@ body {
 }
 
 .logo {
-  max-width: 100%;
-  width: 20rem;
+  max-width: 90%;
+  width: 15rem;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -33,13 +33,15 @@ body {
     left: 50%;
     top: 50%;
     transform-origin: center;
-    transform: translate(-50%, -143%);
+    transform: translate(-50%, -147%);
     opacity: 0;
   }
 
   &__cover {
     fill: $color-bg !important;
   }
+
+  // ANIMATION PHASE 1
 
   &__sun {
     transform-origin: center;
@@ -55,6 +57,8 @@ body {
       @include reflection($i + 1);
     }
   }
+
+  // ANIMATION PHASE 2
 
   &__top {
     transform: translateY(0);
