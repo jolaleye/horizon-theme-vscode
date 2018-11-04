@@ -1,5 +1,3 @@
-// PHASE 1 ANIMATIONS
-
 @keyframes sun {
   from {
     transform: translateY(15%) scale(0.75);
@@ -12,21 +10,56 @@
 }
 
 @keyframes reflection {
-  from {
+  0% {
     opacity: 0;
-    transform: scaleX(0.85);
+    transform: scaleX(0.8);
   }
-  to {
+  50% {
+    opacity: 1;
+  }
+  100% {
     opacity: 1;
     transform: scaleX(1);
   }
 }
 
-@mixin reflection($nthChild) {
-  animation: 3.5s reflection ease-out forwards $nthChild * 0.1 + 1.5 + s;
+@keyframes reflection-fade-out {
+  0% {
+    opacity: 0;
+    transform: scaleX(0.8);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scaleX(1);
+  }
 }
 
-// PHASE 2 ANIMATIONS
+@keyframes reflection-20 {
+  0% {
+    opacity: 0;
+    transform: scaleX(0.8);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: scaleX(0.8) translateX(4%);
+  }
+}
+
+@mixin reflection($n) {
+  @if $n < 20 {
+    animation: 6s reflection ease-out forwards $n * 0.1 + 1.5 + s;
+  } @else if $n > 20 {
+    animation: 6s reflection-fade-out ease-out forwards $n * 0.1 + 1.5 + s;
+  } @else {
+    animation: 6s reflection-20 ease-out forwards $n * 0.1 + 1.5 + s;
+  }
+}
 
 @keyframes split-top {
   from {
