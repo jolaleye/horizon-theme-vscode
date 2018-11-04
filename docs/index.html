@@ -21,7 +21,7 @@
 </head>
 
 <body>
-  <!-- animated Horizon logo -->
+  <!-- LOGO -->
   <svg class="logo" viewBox="0 0 250 236" xmlns="http://www.w3.org/2000/svg" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
     <defs>
       <!-- animated sky gradient -->
@@ -49,12 +49,7 @@
       style="fill:url(#skyGradient);" />
 
     <g class="logo__sun" clip-path="url(#sunClip)">
-      <circle cx="125" cy="118" r="47.5" transform="translate(0 65)" style="fill:#1c1e26;">
-        <animateTransform attributeName="transform" type="translate" from="0 65" to="0 0" fill="freeze" dur="3.7s"
-          begin="0.4s" calcMode="spline" keyTimes="0;1" keySplines="0.0 0.0 0.58 1.0" />
-        <animate attributeName="r" from="42" to="47.5" dur="3.7s" fill="freeze" />
-        <animate attributeName="opacity" from=".9" to="1" dur="3.7s" fill="freeze" />
-      </circle>
+      <circle cx="125" cy="118" r="47.5" fill="#1c1e26" />
     </g>
 
     <!-- hides the sun before it rises -->
@@ -87,6 +82,7 @@
       <rect x="89" y="229" width="77" height="5" rx="2.5" fill="#1c1e26" />
     </g>
   </svg>
+  <!-- END LOGO -->
 </body>
 
 </html>
