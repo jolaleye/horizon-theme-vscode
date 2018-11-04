@@ -1,0 +1,25 @@
+@keyframes sun {
+  from {
+    transform: translateY(30%) scale(0.75);
+    opacity: 0.9;
+  }
+  to {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes reflection {
+  from {
+    opacity: 0;
+    transform: scaleX(0.85);
+  }
+  to {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+}
+
+@mixin reflection($nthChild) {
+  animation: 3.5s reflection ease forwards $nthChild * 0.1 + 1.5 + s;
+}

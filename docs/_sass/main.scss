@@ -23,4 +23,19 @@ body {
   &__cover {
     fill: $color-bg !important;
   }
+
+  &__sun {
+    transform-origin: center;
+    transform: translateY(30%);
+    animation: 4s sun ease-out forwards 0.5s;
+  }
+
+  @for $i from 0 to 23 {
+    &__reflections rect:nth-of-type(#{$i + 1}) {
+      opacity: 0;
+      transform-origin: center;
+      transform: scaleX(0.8);
+      @include reflection($i + 1);
+    }
+  }
 }
