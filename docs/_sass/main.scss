@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'Lovelo';
+  src: url('../fonts/LoveloLineBold.ttf') format('ttf'), url('../fonts/LoveloLineBold.woff') format('woff');
+}
+
 $color-bg: #fceae5;
 
 body {
