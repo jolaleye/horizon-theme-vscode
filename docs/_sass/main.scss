@@ -26,8 +26,8 @@ body {
 
   &__sun {
     transform-origin: center;
-    transform: translateY(30%);
-    animation: 4s sun ease-out forwards 0.5s;
+    transform: translateY(15%);
+    animation: 4.25s sun ease-out forwards 0.5s;
   }
 
   @for $i from 0 to 23 {
