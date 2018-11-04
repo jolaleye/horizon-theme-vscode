@@ -2,5 +2,11 @@
   .logo {
     width: 22rem;
     transform: translate(-50%, -58%);
+
+    &__name {
+      font-size: 5.8em;
+      transform: translate(-49%, -77%);
+      letter-spacing: 0.075em;
+    }
   }
 }

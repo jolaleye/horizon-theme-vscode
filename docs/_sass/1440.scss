@@ -1,5 +1,11 @@
 @media screen and (min-width: 90em) {
   .logo {
     width: 25rem;
+
+    &__name {
+      font-size: 6.25em;
+      transform: translate(-49%, -79%);
+      letter-spacing: 0.08em;
+    }
   }
 }

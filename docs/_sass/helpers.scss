@@ -1,3 +1,5 @@
+// PHASE 1 ANIMATIONS
+
 @keyframes sun {
   from {
     transform: translateY(15%) scale(0.75);
@@ -24,6 +26,8 @@
   animation: 3.5s reflection ease-out forwards $nthChild * 0.1 + 1.5 + s;
 }
 
+// PHASE 2 ANIMATIONS
+
 @keyframes split-top {
   from {
     transform: translateY(0);
@@ -39,5 +43,14 @@
   }
   to {
     transform: translateY(6%);
+  }
+}
+
+@keyframes name {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

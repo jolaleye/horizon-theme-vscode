@@ -25,6 +25,18 @@ body {
   top: 50%;
   transform: translate(-50%, -70%);
 
+  &__name {
+    font-family: 'Lovelo', 'sans-serif';
+    font-size: 3.75em;
+    color: #1c1e26;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform-origin: center;
+    transform: translate(-50%, -147%);
+    opacity: 0;
+  }
+
   &__cover {
     fill: $color-bg !important;
   }
@@ -56,5 +68,9 @@ body {
   &__bottom {
     transform: translateY(0);
     animation: 3s split-bottom ease forwards 6.8s;
+  }
+
+  &__name {
+    animation: 2s name ease forwards 7.75s;
   }
 }
