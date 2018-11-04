@@ -24,6 +24,8 @@ body {
     fill: $color-bg !important;
   }
 
+  // ANIMATION PHASE 1
+
   &__sun {
     transform-origin: center;
     transform: translateY(15%);
@@ -37,5 +39,17 @@ body {
       transform: scaleX(0.8);
       @include reflection($i + 1);
     }
+  }
+
+  // ANIMATION PHASE 2
+
+  &__top {
+    transform: translateY(0);
+    animation: 3s split-top ease forwards 6.8s;
+  }
+
+  &__bottom {
+    transform: translateY(0);
+    animation: 3s split-bottom ease forwards 6.8s;
   }
 }

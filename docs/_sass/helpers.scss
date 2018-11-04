@@ -23,3 +23,21 @@
 @mixin reflection($nthChild) {
   animation: 3.5s reflection ease-out forwards $nthChild * 0.1 + 1.5 + s;
 }
+
+@keyframes split-top {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-6%);
+  }
+}
+
+@keyframes split-bottom {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(6%);
+  }
+}
