@@ -22,7 +22,7 @@
 
 <body>
   <!-- LOGO -->
-  <svg class="logo" viewBox="0 0 250 236" xmlns="http://www.w3.org/2000/svg" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+  <svg class="logo" viewBox="0 -100 250 436" xmlns="http://www.w3.org/2000/svg" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
     <defs>
       <!-- animated sky gradient -->
       <linearGradient id="skyGradient" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.65404e-15,125,-125,7.65404e-15,125,0.500113)">
@@ -48,18 +48,19 @@
       </clipPath>
     </defs>
 
-    <path class="logo__sky" d="M250,125.5c0,-69.035 -55.964,-125 -125,-125c-69.036,0 -125,55.965 -125,125l125,0l125,0Z"
-      style="fill:url(#skyGradient);" />
-
-    <g class="logo__sun" clip-path="url(#sunClip)">
-      <circle cx="125" cy="118" r="47.5" fill="#1c1e26" />
+    <g class="logo__top">
+      <path class="logo__sky" d="M250,125.5c0,-69.035 -55.964,-125 -125,-125c-69.036,0 -125,55.965 -125,125l125,0l125,0Z"
+        style="fill:url(#skyGradient);" />
+      <g class="logo__sun" clip-path="url(#sunClip)">
+        <circle cx="125" cy="118" r="47.5" fill="#1c1e26" />
+      </g>
     </g>
 
     <!-- hides the sun before it rises -->
     <path class="logo__cover" d="M250,125.5c0,69.036 -55.964,125 -125,125c-69.036,0 -125,-55.964 -125,-125l125,0l125,0Z"
       style="fill:#fceae5;" />
 
-    <g class="logo__reflections">
+    <g class="logo__reflections logo__bottom">
       <rect x="0" y="133" width="250" height="5" rx="2.5" fill="#1c1e26" />
       <rect x="15" y="141" width="40" height="5" rx="2.5" fill="#1c1e26" />
       <rect x="67" y="141" width="180" height="5" rx="2.5" fill="#1c1e26" />
