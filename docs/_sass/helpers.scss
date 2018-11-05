@@ -1,3 +1,45 @@
+@keyframes reflection {
+  from {
+    opacity: 0;
+    transform: scaleX(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+}
+
+@keyframes reflection-fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes reflection-expand {
+  from {
+    transform: scaleX(1);
+  }
+  to {
+    transform: scaleX(1.3);
+  }
+}
+
+@mixin reflection($n) {
+  // initial reflection line animation - expand and fade in
+  animation: 3s reflection ease-out forwards $n * 0.1 + 1.5 + s;
+  // expand the first reflection line after initial animation
+  @if $n == 1 {
+    animation: 3s reflection ease-out forwards $n * 0.1 + 1.5 + s, 6s reflection-expand ease-out forwards 9s;
+  }
+  // fade out the last few reflection lines after initial animation
+  @if $n > 20 {
+    animation: 3s reflection ease-out forwards $n * 0.1 + 1.5 + s, 2s reflection-fadeout ease-out forwards 6.8s;
+  }
+}
+
 @keyframes sun {
   from {
     transform: translateY(15%) scale(0.75);
@@ -6,58 +48,6 @@
   to {
     transform: translateY(0) scale(1);
     opacity: 1;
-  }
-}
-
-@keyframes reflection {
-  0% {
-    opacity: 0;
-    transform: scaleX(0.8);
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-    transform: scaleX(1);
-  }
-}
-
-@keyframes reflection-fade-out {
-  0% {
-    opacity: 0;
-    transform: scaleX(0.8);
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    transform: scaleX(1);
-  }
-}
-
-@keyframes reflection-20 {
-  0% {
-    opacity: 0;
-    transform: scaleX(0.8);
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-    transform: scaleX(0.8) translateX(4%);
-  }
-}
-
-@mixin reflection($n) {
-  @if $n < 20 {
-    animation: 6s reflection ease-out forwards $n * 0.1 + 1.5 + s;
-  } @else if $n > 20 {
-    animation: 6s reflection-fade-out ease-out forwards $n * 0.1 + 1.5 + s;
-  } @else {
-    animation: 6s reflection-20 ease-out forwards $n * 0.1 + 1.5 + s;
   }
 }
 
