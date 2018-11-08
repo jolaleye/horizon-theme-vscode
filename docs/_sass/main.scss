@@ -58,11 +58,11 @@ body {
 
   &__top {
     transform: translateY(0);
-    animation: 3s split-top ease forwards 6.8s;
+    animation: 3s split-top ease forwards 6s;
   }
 
   &__bottom {
     transform: translateY(0);
-    animation: 3s split-bottom ease forwards 6.8s;
+    animation: 3s split-bottom ease forwards 6s;
   }
 }

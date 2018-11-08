@@ -32,11 +32,11 @@
   animation: 3s reflection ease-out forwards $n * 0.1 + 1.5 + s;
   // expand the first reflection line after initial animation
   @if $n == 1 {
-    animation: 3s reflection ease-out forwards $n * 0.1 + 1.5 + s, 6s reflection-expand ease-out forwards 9s;
+    animation: 3s reflection ease forwards $n * 0.1 + 1.5 + s, 6s reflection-expand ease-out forwards 7.25s;
   }
   // fade out the last few reflection lines after initial animation
   @if $n > 20 {
-    animation: 3s reflection ease-out forwards $n * 0.1 + 1.5 + s, 2s reflection-fadeout ease-out forwards 6.8s;
+    animation: 3s reflection ease-out forwards $n * 0.1 + 1.5 + s, 2s reflection-fadeout ease-out forwards 6s;
   }
 }
 
