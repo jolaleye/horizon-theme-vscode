@@ -25,6 +25,10 @@ body {
   top: 10%;
   transform: translateX(-50%);
   overflow: visible;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 
   &__cover {
     fill: $color-bg !important;
