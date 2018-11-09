@@ -1,94 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Horizon - A beautifully warm dark theme for VS Code</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Horizon - A beautifully warm dark theme for Visual Studio Code</title>
+    <!-- CSS entry point -->
+    <link rel="stylesheet" href="core.css" />
 
-  <!-- CSS entry point -->
-  <link rel="stylesheet" href="core.css">
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+    <link rel="manifest" href="./site.webmanifest" />
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#f28d81" />
+    <meta name="msapplication-TileColor" content="#fceae5" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
 
-  <!-- Icon -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
-  <link rel="manifest" href="./site.webmanifest">
-  <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#f28d81">
-  <meta name="msapplication-TileColor" content="#fceae5">
-  <meta name="theme-color" content="#ffffff">
-</head>
+  <body>
+    <!-- LOGO -->
+    <svg
+      class="logo"
+      viewBox="0 -100 250 436"
+      xmlns="http://www.w3.org/2000/svg"
+      style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"
+    >
+      <defs>
+        <!-- animated sky gradient -->
+        <linearGradient
+          id="skyGradient"
+          x1="0"
+          y1="0"
+          x2="1"
+          y2="0"
+          gradientUnits="userSpaceOnUse"
+          gradientTransform="matrix(7.65404e-15,125,-125,7.65404e-15,125,0.500113)"
+        >
+          <stop offset="0" stop-color="#fac19a" stop-opacity="0">
+            <animate attributeName="stop-opacity" from="0" to="1" dur="2.2s" fill="freeze" begin="1.7s" />
+            <animate attributeName="stop-color" from="#fac19a" to="#e45893" dur="2.2s" fill="freeze" begin="1.7s" />
+          </stop>
+          <stop offset="0.34" stop-color="#fac19a" stop-opacity="0">
+            <animate attributeName="stop-opacity" from="0" to="1" dur="2.1s" fill="freeze" begin="1.5s" />
+            <animate attributeName="stop-color" from="#fac19a" to="#ea5b79" dur="2.1s" fill="freeze" begin="1.5s" />
+          </stop>
+          <stop offset="0.68" stop-color="#fac19a" stop-opacity="0">
+            <animate attributeName="stop-opacity" from="0" to="1" dur="2s" fill="freeze" begin="1.3s" />
+            <animate attributeName="stop-color" from="#fac19a" to="#f28f81" dur="2s" fill="freeze" begin="1.3s" />
+          </stop>
+          <stop offset="1" stop-color="#fac19a" stop-opacity="0">
+            <animate attributeName="stop-opacity" from="0" to="1" dur="2s" fill="freeze" begin="0.75s" />
+          </stop>
+        </linearGradient>
 
-<body>
-  <!-- LOGO -->
-  <svg class="logo" viewBox="0 -100 250 436" xmlns="http://www.w3.org/2000/svg" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
-    <defs>
-      <!-- animated sky gradient -->
-      <linearGradient id="skyGradient" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.65404e-15,125,-125,7.65404e-15,125,0.500113)">
-        <stop offset="0" stop-color="#fac19a" stop-opacity="0">
-          <animate attributeName="stop-opacity" from="0" to="1" dur="2.2s" fill="freeze" begin="1.7s" />
-          <animate attributeName="stop-color" from="#fac19a" to="#e45893" dur="2.2s" fill="freeze" begin="1.7s" />
-        </stop>
-        <stop offset="0.34" stop-color="#fac19a" stop-opacity="0">
-          <animate attributeName="stop-opacity" from="0" to="1" dur="2.1s" fill="freeze" begin="1.5s" />
-          <animate attributeName="stop-color" from="#fac19a" to="#ea5b79" dur="2.1s" fill="freeze" begin="1.5s" />
-        </stop>
-        <stop offset="0.68" stop-color="#fac19a" stop-opacity="0">
-          <animate attributeName="stop-opacity" from="0" to="1" dur="2s" fill="freeze" begin="1.3s" />
-          <animate attributeName="stop-color" from="#fac19a" to="#f28f81" dur="2s" fill="freeze" begin="1.3s" />
-        </stop>
-        <stop offset="1" stop-color="#fac19a" stop-opacity="0">
-          <animate attributeName="stop-opacity" from="0" to="1" dur="2s" fill="freeze" begin="0.75s" />
-        </stop>
-      </linearGradient>
+        <clipPath id="sunClip">
+          <path d="M250,125.5c0,-69.035 -55.964,-125 -125,-125c-69.036,0 -125,55.965 -125,125l125,0l125,0Z" />
+        </clipPath>
+      </defs>
 
-      <clipPath id="sunClip">
-        <path d="M250,125.5c0,-69.035 -55.964,-125 -125,-125c-69.036,0 -125,55.965 -125,125l125,0l125,0Z" />
-      </clipPath>
-    </defs>
-
-    <g class="logo__top">
-      <path class="logo__sky" d="M250,125.5c0,-69.035 -55.964,-125 -125,-125c-69.036,0 -125,55.965 -125,125l125,0l125,0Z"
-        style="fill:url(#skyGradient);" />
-      <g class="logo__sun" clip-path="url(#sunClip)">
-        <circle cx="125" cy="118" r="47.5" fill="#1c1e26" />
+      <g class="logo__top">
+        <path
+          class="logo__sky"
+          d="M250,125.5c0,-69.035 -55.964,-125 -125,-125c-69.036,0 -125,55.965 -125,125l125,0l125,0Z"
+          style="fill:url(#skyGradient);"
+        />
+        <g class="logo__sun" clip-path="url(#sunClip)"><circle cx="125" cy="118" r="47.5" fill="#1c1e26" /></g>
       </g>
-    </g>
 
-    <!-- hides the sun before it rises -->
-    <path class="logo__cover" d="M250,125.5c0,69.036 -55.964,125 -125,125c-69.036,0 -125,-55.964 -125,-125l125,0l125,0Z"
-      fill="#fceae5" />
+      <!-- hides the sun before it rises -->
+      <path
+        class="logo__cover"
+        d="M250,125.5c0,69.036 -55.964,125 -125,125c-69.036,0 -125,-55.964 -125,-125l125,0l125,0Z"
+        fill="#fceae5"
+      />
 
-    <text class="logo__name" x="126" y="151" text-anchor="middle">Horizon</text>
+      <text class="logo__name" x="126" y="151" text-anchor="middle">Horizon</text>
 
-    <g class="logo__reflections logo__bottom">
-      <rect x="0" y="133" width="250" height="5" rx="2.5" fill="#1c1e26" />
-      <rect x="15" y="141" width="40" height="5" rx="2.5" fill="#1c1e26" />
-      <rect x="67" y="141" width="180" height="5" rx="2.5" fill="#1c1e26" />
-      <rect x="5" y="149" width="129" height="5" rx="2.5" fill="#1c1e26" />
-      <rect x="140" y="149" width="40" height="5" rx="2.5" fill="#1c1e26" />
-      <rect x="185" y="149" width="49" height="5" rx="2.5" fill="#1c1e26" />
-      <rect x="11" y="157" width="109" height="5" rx="2.5" fill="#1c1e26" />
-      <rect x="130" y="157" width="113" height="5" rx="2.5" fill="#1c1e26" />
-      <rect x="37" y="165" width="116" height="5" rx="2.5" fill="#1c1e26" />
-      <rect x="170" y="165" width="77" height="5" rx="2.5" fill="#1c1e26" />
-      <rect x="13" y="173" width="70" height="5" rx="2.5" fill="#1c1e26" />
-      <rect x="100" y="173" width="109" height="5" rx="2.5" fill="#1c1e26" />
-      <rect x="22" y="181" width="77" height="5" rx="2.5" fill="#1c1e26" />
-      <rect x="121" y="181" width="113" height="5" rx="2.5" fill="#1c1e26" />
-      <rect x="46" y="189" width="159" height="5" rx="2.5" fill="#1c1e26" />
-      <rect x="29" y="197" width="40" height="5" rx="2.5" fill="#1c1e26" />
-      <rect x="83" y="197" width="137" height="5" rx="2.5" fill="#1c1e26" />
-      <rect x="51" y="205" width="53" height="5" rx="2.5" fill="#1c1e26" />
-      <rect x="121" y="205" width="88" height="5" rx="2.5" fill="#1c1e26" />
-      <rect x="73" y="213" width="88" height="5" rx="2.5" fill="#1c1e26" />
-      <rect x="67" y="221" width="58" height="5" rx="2.5" fill="#1c1e26" />
-      <rect x="144" y="221" width="48" height="5" rx="2.5" fill="#1c1e26" />
-      <rect x="89" y="229" width="77" height="5" rx="2.5" fill="#1c1e26" />
-    </g>
-  </svg>
-  <!-- END LOGO -->
-</body>
-
+      <g class="logo__reflections logo__bottom">
+        <rect x="0" y="133" width="250" height="5" rx="2.5" fill="#1c1e26" />
+        <rect x="15" y="141" width="40" height="5" rx="2.5" fill="#1c1e26" />
+        <rect x="67" y="141" width="180" height="5" rx="2.5" fill="#1c1e26" />
+        <rect x="5" y="149" width="129" height="5" rx="2.5" fill="#1c1e26" />
+        <rect x="140" y="149" width="40" height="5" rx="2.5" fill="#1c1e26" />
+        <rect x="185" y="149" width="49" height="5" rx="2.5" fill="#1c1e26" />
+        <rect x="11" y="157" width="109" height="5" rx="2.5" fill="#1c1e26" />
+        <rect x="130" y="157" width="113" height="5" rx="2.5" fill="#1c1e26" />
+        <rect x="37" y="165" width="116" height="5" rx="2.5" fill="#1c1e26" />
+        <rect x="170" y="165" width="77" height="5" rx="2.5" fill="#1c1e26" />
+        <rect x="13" y="173" width="70" height="5" rx="2.5" fill="#1c1e26" />
+        <rect x="100" y="173" width="109" height="5" rx="2.5" fill="#1c1e26" />
+        <rect x="22" y="181" width="77" height="5" rx="2.5" fill="#1c1e26" />
+        <rect x="121" y="181" width="113" height="5" rx="2.5" fill="#1c1e26" />
+        <rect x="46" y="189" width="159" height="5" rx="2.5" fill="#1c1e26" />
+        <rect x="29" y="197" width="40" height="5" rx="2.5" fill="#1c1e26" />
+        <rect x="83" y="197" width="137" height="5" rx="2.5" fill="#1c1e26" />
+        <rect x="51" y="205" width="53" height="5" rx="2.5" fill="#1c1e26" />
+        <rect x="121" y="205" width="88" height="5" rx="2.5" fill="#1c1e26" />
+        <rect x="73" y="213" width="88" height="5" rx="2.5" fill="#1c1e26" />
+        <rect x="67" y="221" width="58" height="5" rx="2.5" fill="#1c1e26" />
+        <rect x="144" y="221" width="48" height="5" rx="2.5" fill="#1c1e26" />
+        <rect x="89" y="229" width="77" height="5" rx="2.5" fill="#1c1e26" />
+      </g>
+    </svg>
+    <!-- END LOGO -->
+  </body>
 </html>
