@@ -79,6 +79,48 @@ Always try your best to make a positive impact on this project and its community
 
 Read the contributing guide to learn about how you can report issues and contribute to changes.
 
+## Color Reference
+
+### Syntax Colors
+
+> **Note:** All syntax colors have 90% opacity so your eyes don't burn :)
+
+| Color | Usage |
+|:-----:|-------|
+|`#B877DB`|Keywords, template literals & embedded punctuation (e.g. `${}` or `{}` )|
+|`#E95678`|Variables, property names, tags, markup headings|
+|`#25B0BC`|Functions, escape characters, CSS #ids|
+|`#F09483`|Constants, regex, attributes, units, CSS .classes|
+|`#FAB795`|Strings, pseudo CSS, inherited classes, markup links|
+|`#FAC29A`|Special keywords, classes|
+
+### Terminal Colors
+
+| Color | Normal | Bright |
+|:-----:|:------:|:------:|
+|Blue|`#30AAD7`|`#56C2EA`|
+|Cyan|`#1FDAD9`|`#3CE8E6`|
+|Green|`#14D386`|`#0AF29D`|
+|Magenta|`#E54EAF`|`#F360C4`|
+|Red|`#E95478`|`#E06783`|
+|Yellow|`#FAB795`|`#FAC39A`|
+
+### UI Colors
+
+| Color | Usage |
+|:-----:|-------|
+|`#1C1E26`|Primary background|
+|`#232530`|Light background (popups & widgets)|
+|`#2E303E`|Selection, highlights, input field background|
+|`#6C6F93`|Accents (e.g. scrollbar, drag and drop highlights)|
+|`#F43E5C`|Errors, deletion highlights|
+|`#E95378`|Accents (e.g. active tab, badges)|
+|`#FAB38E`|Debugging status bar|
+|`#FAC39A`|Modified Git decoration (explorer)|
+|`#21BFC2`|Modified highlights (gutter & scrollbar ruler)|
+|`#27D797`|Warning highlights, untracked resources|
+|`#09F7A0`|Addition highlights|
+
 ## License
 
 [MIT](LICENSE) © [Jonathan Olaleye](https://github.com/jolaleye)
