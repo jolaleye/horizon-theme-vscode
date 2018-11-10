@@ -2,6 +2,10 @@
 
 All notable changes to Horizon will be documented in this file.
 
+## 1.6.0 (November 10, 2018)
+
+- Add README color reference
+
 ## 1.5.2 (October 29, 2018)
 
 - Generalize tag `</>` highlighting (fixes tags in XML) ([f710bc4](https://github.com/jolaleye/horizon-theme-vscode/commit/f710bc4))
