@@ -4,7 +4,7 @@ All notable changes to Horizon will be documented in this file.
 
 ## 1.6.0 (November 10, 2018)
 
-- Add README color reference
+- Add README color reference ([08d545e](https://github.com/jolaleye/horizon-theme-vscode/commit/08d545e), [9fe4f6e](https://github.com/jolaleye/horizon-theme-vscode/commit/9fe4f6e))
 
 ## 1.5.2 (October 29, 2018)
 
