@@ -17,12 +17,16 @@ body {
   background-color: $color-bg;
 }
 
+header {
+  height: 75vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .logo {
-  width: 15rem;
-  position: absolute;
-  left: 50%;
-  top: 10%;
-  transform: translateX(-50%);
+  width: 70%;
   overflow: visible;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -38,7 +42,7 @@ body {
 
   &__sun {
     transform-origin: center;
-    transform: translateY(15%);
+    transform: translateY(30%);
     animation: 4.25s sun ease-out forwards 0.5s;
   }
 
@@ -75,10 +79,4 @@ body {
 .header__chevron {
   // only shown at larger screen sizes
   display: none;
-  width: 1.5em;
-  fill: none;
-  stroke: #1c1e26;
-  stroke-width: 1;
-  stroke-linecap: round;
-  stroke-linejoin: round;
 }

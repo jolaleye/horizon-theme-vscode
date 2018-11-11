@@ -1,23 +1,30 @@
 @media screen and (min-width: 48em) {
+  header {
+    height: 100vh;
+  }
+
   .logo {
     width: 22rem;
+    transform: translateY(-5%);
 
     &__name {
       letter-spacing: 0.075em;
     }
   }
 
-  header {
-    height: 100vh;
-  }
-
   .header__chevron {
-    display: inline;
+    display: block;
+    width: 3.5rem;
     position: absolute;
     bottom: 0;
     left: 50%;
+    fill: none;
+    stroke: #1c1e26;
+    stroke-width: 1;
+    stroke-linecap: round;
+    stroke-linejoin: round;
     opacity: 0;
-    transform: translate(-50%, -2em) scale(2.5);
+    transform: translate(-50%, -2em);
     animation: 1s chevron-fade-in linear forwards 9.25s, 3s chevron-bounce ease 10s infinite;
   }
 }

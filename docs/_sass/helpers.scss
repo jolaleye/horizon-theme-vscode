@@ -23,7 +23,7 @@
     transform: scaleX(1);
   }
   to {
-    transform: scaleX(1.3);
+    transform: scaleX(1.25);
   }
 }
 
@@ -42,7 +42,7 @@
 
 @keyframes sun {
   from {
-    transform: translateY(15%) scale(0.75);
+    transform: translateY(30%) scale(0.75);
     opacity: 0.9;
   }
   to {
@@ -56,7 +56,7 @@
     transform: translateY(0);
   }
   to {
-    transform: translateY(-6%);
+    transform: translateY(-11%);
   }
 }
 
@@ -65,7 +65,7 @@
     transform: translateY(0);
   }
   to {
-    transform: translateY(6%);
+    transform: translateY(11%);
   }
 }
 
@@ -89,12 +89,12 @@
 
 @keyframes chevron-bounce {
   0% {
-    transform: translate(-50%, -2em) scale(2.5);
+    transform: translate(-50%, -2em);
   }
   50% {
-    transform: translate(-50%, -3em) scale(2.5);
+    transform: translate(-50%, -3em);
   }
   100% {
-    transform: translate(-50%, -2em) scale(2.5);
+    transform: translate(-50%, -2em);
   }
 }
