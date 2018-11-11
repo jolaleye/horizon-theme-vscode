@@ -18,20 +18,22 @@ body {
 }
 
 .logo {
-  max-width: 90%;
   width: 15rem;
   position: absolute;
   left: 50%;
   top: 10%;
   transform: translateX(-50%);
   overflow: visible;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  // disable selection on the logo
   -moz-user-select: none;
   -ms-user-select: none;
   -webkit-user-select: none;
   user-select: none;
 
   &__cover {
-    fill: $color-bg !important;
+    fill: $color-bg;
   }
 
   &__sun {
@@ -70,8 +72,13 @@ body {
   }
 }
 
-.down {
+.header__chevron {
+  // only shown at larger screen sizes
   display: none;
+  width: 1.5em;
   fill: none;
   stroke: #1c1e26;
+  stroke-width: 1;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
