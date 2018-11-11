@@ -6,4 +6,14 @@
       letter-spacing: 0.075em;
     }
   }
+
+  .down {
+    display: inline;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%, -2em) scale(2.5);
+    animation: 1s chevron-fade-in linear forwards 9.25s, 3s chevron-bounce ease 10s infinite;
+  }
 }
