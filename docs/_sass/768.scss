@@ -1,6 +1,7 @@
 @media screen and (min-width: 48em) {
   header {
     height: 100vh;
+    margin-bottom: 2em;
   }
 
   .logo {
@@ -26,5 +27,14 @@
     opacity: 0;
     transform: translate(-50%, -2em);
     animation: 1s chevron-fade-in linear forwards 9.25s, 3s chevron-bounce ease 10s infinite;
+  }
+
+  .github__icon, .twitter__icon, .facebook__icon {
+    width: 3em;
+    margin-left: 1.5em;
+  }
+
+  .social__marketplace {
+    font-size: 1.25em;
   }
 }

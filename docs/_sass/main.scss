@@ -80,3 +80,43 @@ header {
   // only shown at larger screen sizes
   display: none;
 }
+
+.social {
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+
+  a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #1c1e26;
+  }
+}
+
+.github__icon, .twitter__icon, .facebook__icon {
+  fill: #1c1e26;
+  width: 2em;
+  margin-left: 1em;
+}
+
+.social__marketplace {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  padding: 0.5em 1em;
+  border: 1px solid rgba(28, 30, 38, 0.75);
+  border-radius: 8px;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  span {
+    margin-left: 0.5em;
+  }
+}
+
+.marketplace__icon {
+  fill: #1c1e26;
+  width: 1.6em;
+}
