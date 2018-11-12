@@ -26,7 +26,7 @@ header {
 }
 
 .logo {
-  width: 70%;
+  width: 16rem;
   overflow: visible;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -82,9 +82,11 @@ header {
 }
 
 .social {
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
+  padding: 0 1rem;
 
   a {
     display: flex;
@@ -119,4 +121,17 @@ header {
 .marketplace__icon {
   fill: #1c1e26;
   width: 1.6em;
+}
+
+.info {
+  display: flex;
+  margin-bottom: 5rem;
+  padding: 0 1rem;
+}
+
+.info__description {
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2em;
+  text-align: center;
 }

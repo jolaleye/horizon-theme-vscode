@@ -8,13 +8,21 @@
     }
   }
 
+  .social {
+    margin-bottom: 4.2rem;
+  }
+
   .github__icon, .twitter__icon, .facebook__icon {
-    width: 3.5em;
-    margin-left: 2em;
+    width: 3.25em;
+    margin-left: 1.75em;
   }
 
   .social__marketplace {
-    font-size: 1.5em;
+    font-size: 1.4em;
     padding: 0.5em 1.25em;
+  }
+
+  .info__description {
+    font-size: 2.2em;
   }
 }
