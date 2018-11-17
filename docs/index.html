@@ -148,6 +148,43 @@
       <section class="info">
         <p class="info__description">A beautifully warm dark theme for Visual Studio Code</p>
       </section>
+
+      <section class="preview">
+        <div class="glide">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide"><img src="img/preview-html.png" alt="HTML with Horizon" /></li>
+              <li class="glide__slide"><img src="img/preview-css.png" alt="HTML with Horizon" /></li>
+              <li class="glide__slide"><img src="img/preview-js.png" alt="HTML with Horizon" /></li>
+            </ul>
+          </div>
+
+          <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+              </svg>
+            </button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <!-- preview carousel -->
+    <link rel="stylesheet" href="https://unpkg.com/@glidejs/glide@3.2.3/dist/css/glide.core.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/@glidejs/glide@3.2.3/dist/css/glide.theme.min.css" />
+    <script src="https://unpkg.com/@glidejs/glide@3.2.3/dist/glide.min.js"></script>
+    <script>
+      new Glide('.glide', {
+        type: 'carousel',
+        autoplay: 6000,
+        animationDuration: 800
+      }).mount();
+    </script>
   </body>
 </html>

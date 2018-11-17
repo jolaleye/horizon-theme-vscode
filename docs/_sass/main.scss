@@ -96,7 +96,9 @@ header {
   }
 }
 
-.github__icon, .twitter__icon, .facebook__icon {
+.github__icon,
+.twitter__icon,
+.facebook__icon {
   fill: #1c1e26;
   width: 2em;
   margin-left: 1em;
@@ -125,7 +127,7 @@ header {
 
 .info {
   display: flex;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
   padding: 0 1rem;
 }
 
@@ -134,4 +136,32 @@ header {
   font-family: 'Raleway', sans-serif;
   font-size: 1.2em;
   text-align: center;
+}
+
+.preview {
+  padding: 0 0.5rem;
+  margin-bottom: 5rem;
+}
+
+.glide__slide img {
+  width: 100%;
+}
+
+.glide__arrow {
+  border: none !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+
+  svg {
+    fill: white;
+    opacity: 0.3;
+    width: 2.25em;
+  }
+
+  &--left {
+    left: 0.4em !important;
+  }
+  &--right {
+    right: 0.4em !important;
+  }
 }

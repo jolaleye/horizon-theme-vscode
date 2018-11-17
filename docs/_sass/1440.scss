@@ -12,7 +12,9 @@
     margin-bottom: 4.2rem;
   }
 
-  .github__icon, .twitter__icon, .facebook__icon {
+  .github__icon,
+  .twitter__icon,
+  .facebook__icon {
     width: 3.25em;
     margin-left: 1.75em;
   }
@@ -24,5 +26,13 @@
 
   .info__description {
     font-size: 2.2em;
+  }
+
+  .preview {
+    padding: 0 15%;
+  }
+
+  .glide__arrow svg {
+    width: 4.5em;
   }
 }
