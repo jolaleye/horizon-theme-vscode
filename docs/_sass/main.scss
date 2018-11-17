@@ -154,8 +154,13 @@ header {
 
   svg {
     fill: white;
-    opacity: 0.3;
     width: 2.25em;
+    opacity: 0.3;
+    transition: opacity 0.25s;
+
+    &:hover {
+      opacity: 0.75;
+    }
   }
 
   &--left {
