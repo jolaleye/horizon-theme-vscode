@@ -140,7 +140,7 @@ header {
 
 .preview {
   padding: 0 0.5rem;
-  margin-bottom: 5rem;
+  margin-bottom: 0.5rem;
 }
 
 .glide__slide img {
@@ -168,5 +168,24 @@ header {
   }
   &--right {
     right: 0.4em !important;
+  }
+}
+
+footer {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.by {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.8em;
+  color: #1c1e26;
+  text-decoration: none;
+  opacity: 0.5;
+  transition: opacity 0.2s;
+
+  &:hover {
+    opacity: 0.75;
   }
 }
