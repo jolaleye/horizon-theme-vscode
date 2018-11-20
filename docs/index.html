@@ -194,5 +194,33 @@
         animationDuration: 800
       }).mount();
     </script>
+
+    <!-- live stats -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script>
+      axios
+        .post(
+          'https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery/',
+          {
+            filters: [
+              {
+                criteria: [{ filterType: 7, value: 'jolaleye.horizon-theme-vscode' }]
+              }
+            ],
+            flags: 914
+          },
+          {
+            headers: {
+              accept: 'application/json;api-version=3.0-preview.1'
+            }
+          }
+        )
+        .then(({ data }) => {
+          const stats = data.results[0].extensions[0].statistics;
+          const installs =
+            stats.find(el => el.statisticName === 'install').value +
+            stats.find(el => el.statisticName === 'updateCount').value;
+        });
+    </script>
   </body>
 </html>
