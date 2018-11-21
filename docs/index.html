@@ -157,7 +157,7 @@
 
       <section class="stats">
         <p class="stats__downloads">
-          <span class="downloads">xxxxxx</span>
+          <span class="downloads">000,000</span>
           downloads
         </p>
       </section>
@@ -228,6 +228,9 @@
             stats.find(el => el.statisticName === 'install').value +
             stats.find(el => el.statisticName === 'updateCount').value;
           const rating = stats.find(el => el.statisticName === 'averagerating').value;
+
+          // add downloads stat and use a lil bit of magic to add commas
+          document.querySelector('.downloads').innerHTML = installs.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
         });
     </script>
   </body>
