@@ -40,6 +40,14 @@
     font-size: 2em;
   }
 
+  .stats__rating {
+    margin-left: 4rem;
+
+    svg {
+      width: 2em;
+    }
+  }
+
   .preview {
     padding: 0 15%;
     margin-bottom: 1.5rem;
