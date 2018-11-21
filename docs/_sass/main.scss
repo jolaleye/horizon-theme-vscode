@@ -127,7 +127,7 @@ header {
 
 .info {
   display: flex;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   padding: 0 1rem;
 }
 
@@ -136,6 +136,18 @@ header {
   font-family: 'Raleway', sans-serif;
   font-size: 1.2em;
   text-align: center;
+}
+
+.stats {
+  margin-bottom: 3rem;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.stats__downloads {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
 }
 
 .preview {
