@@ -2,6 +2,10 @@
 
 All notable changes to Horizon will be documented in this file.
 
+## 1.6.1 (November 25, 2018)
+
+- Check out the new homepage! https://jolaleye.github.io/horizon-theme-vscode/
+
 ## 1.6.0 (November 10, 2018)
 
 - Add README color reference ([08d545e](https://github.com/jolaleye/horizon-theme-vscode/commit/08d545e), [9fe4f6e](https://github.com/jolaleye/horizon-theme-vscode/commit/9fe4f6e))
