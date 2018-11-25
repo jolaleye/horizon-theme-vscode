@@ -29,8 +29,20 @@
     animation: 1s chevron-fade-in linear forwards 9.25s, 3s chevron-bounce ease 10s infinite;
   }
 
-  .social {
-    margin-bottom: 3rem;
+  main section {
+    margin-bottom: 2.5rem;
+  }
+
+  .social__marketplace {
+    padding: 0.6rem 1.3rem;
+
+    span {
+      font-size: 1.2em;
+    }
+  }
+
+  .marketplace__icon {
+    width: 2em;
   }
 
   .github__icon,
@@ -40,27 +52,24 @@
     margin-left: 1.5em;
   }
 
-  .social__marketplace {
-    font-size: 1.2em;
-  }
-
   .info__description {
-    font-size: 1.6em;
+    font-size: 1.7em;
   }
 
   .stats__downloads {
-    font-size: 1.4em;
+    font-size: 1.5em;
   }
 
   .stats__rating {
     margin-left: 2rem;
 
     svg {
-      width: 1.4em;
+      width: 1.5em;
     }
   }
 
   .donate__btn {
+    padding: 0.6rem 1.2rem;
     font-size: 1.1em;
   }
 
@@ -75,9 +84,9 @@
 
   footer {
     margin-bottom: 1.5rem;
-  }
 
-  .by {
-    font-size: 1em;
+    a {
+      font-size: 1em;
+    }
   }
 }

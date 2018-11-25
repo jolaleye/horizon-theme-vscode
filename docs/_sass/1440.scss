@@ -8,8 +8,20 @@
     }
   }
 
-  .social {
-    margin-bottom: 4.2rem;
+  main section {
+    margin-bottom: 3.5rem;
+  }
+
+  .social__marketplace {
+    padding: 0.85rem 1.6rem;
+
+    span {
+      font-size: 1.5em;
+    }
+  }
+
+  .marketplace__icon {
+    width: 2.2em;
   }
 
   .github__icon,
@@ -19,21 +31,8 @@
     margin-left: 1.75em;
   }
 
-  .social__marketplace {
-    font-size: 1.4em;
-    padding: 0.5em 1.25em;
-  }
-
-  .info {
-    margin-bottom: 3rem;
-  }
-
   .info__description {
     font-size: 2.2em;
-  }
-
-  .stats {
-    margin-bottom: 4rem;
   }
 
   .stats__downloads {
@@ -49,6 +48,7 @@
   }
 
   .donate__btn {
+    padding: 0.75rem 1.4rem;
     font-size: 1.3em;
   }
 
@@ -63,9 +63,9 @@
 
   footer {
     margin-bottom: 2rem;
-  }
 
-  .by {
-    font-size: 1.2em;
+    a {
+      font-size: 1.2em;
+    }
   }
 }

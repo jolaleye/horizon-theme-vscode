@@ -11,10 +11,8 @@
   src: url('./fonts/LoveloLineBold.ttf') format('ttf'), url('./fonts/LoveloLineBold.woff') format('woff');
 }
 
-$color-bg: #fceae5;
-
 body {
-  background-color: $color-bg;
+  background-color: #fceae5;
 }
 
 header {
@@ -37,7 +35,7 @@ header {
   user-select: none;
 
   &__cover {
-    fill: $color-bg;
+    fill: #fceae5;
   }
 
   &__sun {
@@ -81,34 +79,39 @@ header {
   display: none;
 }
 
+main {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: #1c1e26;
+
+  section {
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+  }
+
+  svg {
+    fill: #1c1e26;
+  }
+}
+
 .social {
-  margin-bottom: 2rem;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  padding: 0 1rem;
 
   a {
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: #1c1e26;
+    color: inherit;
   }
 }
 
-.github__icon,
-.twitter__icon,
-.facebook__icon {
-  fill: #1c1e26;
-  width: 2em;
-  margin-left: 1em;
-}
-
 .social__marketplace {
-  font-family: 'Raleway', sans-serif;
-  font-size: 1em;
-  padding: 0.5em 1em;
-  border: 1px solid rgba(28, 30, 38, 0.75);
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border: 1px solid rgba(28, 30, 38, 0.5);
   border-radius: 8px;
 
   &:hover {
@@ -121,39 +124,35 @@ header {
 }
 
 .marketplace__icon {
-  fill: #1c1e26;
   width: 1.6em;
+}
+
+.github__icon,
+.twitter__icon,
+.facebook__icon {
+  width: 2em;
+  margin-left: 1em;
 }
 
 .info {
   display: flex;
-  margin-bottom: 2rem;
-  padding: 0 1rem;
+  justify-content: center;
 }
 
 .info__description {
-  margin: auto;
-  font-family: 'Raleway', sans-serif;
   font-size: 1.2em;
   text-align: center;
 }
 
 .stats {
-  margin-bottom: 2rem;
-  padding: 0 1rem;
   display: flex;
   justify-content: center;
 }
 
-.stats__downloads {
-  font-family: 'Raleway', sans-serif;
-  font-size: 1em;
-}
-
 .stats__rating {
-  margin-left: 1rem;
   display: flex;
   align-items: center;
+  margin-left: 1rem;
 
   svg {
     width: 1em;
@@ -162,23 +161,20 @@ header {
 }
 
 .donate {
-  margin-bottom: 3rem;
-  padding: 0 1rem;
   display: flex;
   justify-content: center;
+  margin-bottom: 3rem;
 }
 
 .donate__btn {
-  font-family: 'Raleway', sans-serif;
-  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 0.5em 1em;
   border: 1px solid rgba(28, 30, 38, 0.5);
   border-radius: 8px;
   text-decoration: none;
-  color: #1c1e26;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  color: inherit;
 
   &:hover {
     cursor: pointer;
@@ -191,7 +187,6 @@ header {
 
 .donate__heart,
 .donate__dollar {
-  fill: #1c1e26;
   width: 1em;
   height: auto;
   margin-left: 0.5em;
@@ -239,17 +234,19 @@ footer {
   padding: 1rem;
   margin-bottom: 1rem;
   text-align: center;
-}
-
-.by {
   font-family: 'Raleway', sans-serif;
-  font-size: 0.8em;
+  font-weight: 300;
   color: #1c1e26;
-  text-decoration: none;
-  opacity: 0.5;
-  transition: opacity 0.2s;
 
-  &:hover {
-    opacity: 0.75;
+  a {
+    font-size: 0.8em;
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.5;
+    transition: opacity 0.2s;
+
+    &:hover {
+      opacity: 0.8;
+    }
   }
 }
