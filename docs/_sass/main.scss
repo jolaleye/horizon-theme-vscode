@@ -139,7 +139,7 @@ header {
 }
 
 .stats {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   padding: 0 1rem;
   display: flex;
   justify-content: center;
@@ -159,6 +159,47 @@ header {
     width: 1em;
     height: auto;
   }
+}
+
+.donate {
+  margin-bottom: 3rem;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.donate__btn {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  padding: 0.5em 1em;
+  border: 1px solid rgba(28, 30, 38, 0.5);
+  border-radius: 8px;
+  text-decoration: none;
+  color: #1c1e26;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  span {
+    margin-right: 0.25em;
+  }
+}
+
+.donate__heart,
+.donate__dollar {
+  fill: #1c1e26;
+  width: 1em;
+  height: auto;
+  margin-left: 0.5em;
+}
+
+.donate__dollar {
+  height: 1.2em;
+  width: auto;
 }
 
 .preview {
