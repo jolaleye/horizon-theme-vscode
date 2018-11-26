@@ -17,6 +17,10 @@
   <a href="https://marketplace.visualstudio.com/items?itemName=jolaleye.horizon-theme-vscode">
     <img alt="rating" src="https://vsmarketplacebadge.apphb.com/rating-star/jolaleye.horizon-theme-vscode.svg?maxAge=86400&style=for-the-badge&colorA=1C1E26&colorB=FAB38E">
   </a>
+  <!-- donation -->
+  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=8U6XT98BHG63E&item_name=To+support+the+development+of+Horizon+and+my+other+open-source+projects.+Thank+you%21&currency_code=USD&source=url">
+    <img alt="donate" src="https://img.shields.io/badge/donate-$-FAB38E.svg?style=for-the-badge&colorA=1C1E26">
+  </a>
 </p>
 
 <p align="center">
