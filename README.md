@@ -1,5 +1,7 @@
 <p align="center">
-  <img alt="horizon banner" src="https://i.imgur.com/pwBUCSe.png">
+  <a href="https://jolaleye.github.io/horizon-theme-vscode/">
+    <img alt="horizon banner" src="https://i.imgur.com/pwBUCSe.png">
+  </a>
 </p>
 
 ---
