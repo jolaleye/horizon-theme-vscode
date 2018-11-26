@@ -2,6 +2,11 @@
 
 All notable changes to Horizon will be documented in this file.
 
+## 1.6.2 (November 26, 2018)
+
+- Link README banner to homepage ([7e02125](https://github.com/jolaleye/horizon-theme-vscode/commit/7e02125))
+- Add README donation badge ([732b543](https://github.com/jolaleye/horizon-theme-vscode/commit/732b543))
+
 ## 1.6.1 (November 25, 2018)
 
 - Check out the new homepage! https://jolaleye.github.io/horizon-theme-vscode/
