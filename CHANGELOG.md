@@ -2,6 +2,10 @@
 
 All notable changes to Horizon will be documented in this file.
 
+## 1.6.3 (December 30, 2018)
+
+- Add README personalization section on italics ([ba508a8](https://github.com/jolaleye/horizon-theme-vscode/commit/ba508a8))
+
 ## 1.6.2 (November 26, 2018)
 
 - Link README banner to homepage ([7e02125](https://github.com/jolaleye/horizon-theme-vscode/commit/7e02125))
