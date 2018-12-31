@@ -59,6 +59,24 @@ For more info on theming, visit the [Extension Authoring Guide](https://code.vis
 }
 ```
 
+### Italics
+
+The normal theme only uses italics in a few places: comments, parameters, and some special keywords (e.g. `this`). If you would prefer no italics at all, you can configure this in your settings...
+
+```
+"editor.tokenColorCustomizations": {
+  "textMateRules": [
+    {
+      "name": "No italics",
+      "scope": ["comment", "variable.language", "variable.parameter"],
+      "settings": {
+        "fontStyle": ""
+      }
+    }
+  ]
+}
+```
+
 ### Tag Brackets `<>`
 
 ```
