@@ -122,12 +122,12 @@ Read the contributing guide to learn about how you can report issues and contrib
 
 |  Color  |                           Normal                            |                           Bright                            |
 | :-----: | :---------------------------------------------------------: | :---------------------------------------------------------: |
-|  Blue   | ![](https://via.placeholder.com/10/30AAD7?text=+) `#30AAD7` | ![](https://via.placeholder.com/10/56C2EA?text=+) `#56C2EA` |
-|  Cyan   | ![](https://via.placeholder.com/10/1FDAD9?text=+) `#1FDAD9` | ![](https://via.placeholder.com/10/3CE8E6?text=+) `#3CE8E6` |
-|  Green  | ![](https://via.placeholder.com/10/14D386?text=+) `#14D386` | ![](https://via.placeholder.com/10/0AF29D?text=+) `#0AF29D` |
-| Magenta | ![](https://via.placeholder.com/10/E54EAF?text=+) `#E54EAF` | ![](https://via.placeholder.com/10/F360C4?text=+) `#F360C4` |
-|   Red   | ![](https://via.placeholder.com/10/E95478?text=+) `#E95478` | ![](https://via.placeholder.com/10/E06783?text=+) `#E06783` |
-| Yellow  | ![](https://via.placeholder.com/10/FAB795?text=+) `#FAB795` | ![](https://via.placeholder.com/10/FAC39A?text=+) `#FAC39A` |
+|  Blue   | ![](https://via.placeholder.com/10/26BBD9?text=+) `#26BBD9` | ![](https://via.placeholder.com/10/3FC4DE?text=+) `#3FC4DE` |
+|  Cyan   | ![](https://via.placeholder.com/10/59E1E3?text=+) `#59E1E3` | ![](https://via.placeholder.com/10/6BE4E6?text=+) `#6BE4E6` |
+|  Green  | ![](https://via.placeholder.com/10/29D398?text=+) `#29D398` | ![](https://via.placeholder.com/10/3FDAA4?text=+) `#3FDAA4` |
+| Magenta | ![](https://via.placeholder.com/10/EE64AC?text=+) `#EE64AC` | ![](https://via.placeholder.com/10/F075B5?text=+) `#F075B5` |
+|   Red   | ![](https://via.placeholder.com/10/E95678?text=+) `#E95678` | ![](https://via.placeholder.com/10/EC6A88?text=+) `#EC6A88` |
+| Yellow  | ![](https://via.placeholder.com/10/FAB795?text=+) `#FAB795` | ![](https://via.placeholder.com/10/FBC3A7?text=+) `#FBC3A7` |
 
 ### UI Colors
 
