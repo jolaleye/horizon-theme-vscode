@@ -2,6 +2,11 @@
 
 All notable changes to Horizon will be documented in this file.
 
+## 1.6.4 (January 15, 2019)
+
+- Update terminal colors ([0cb2966](https://github.com/jolaleye/horizon-theme-vscode/commit/0cb2966))
+- Update terminal color reference ([2892377](https://github.com/jolaleye/horizon-theme-vscode/commit/2892377))
+
 ## 1.6.3 (December 30, 2018)
 
 - Add README personalization section on italics ([ba508a8](https://github.com/jolaleye/horizon-theme-vscode/commit/ba508a8))
