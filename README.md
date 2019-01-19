@@ -11,17 +11,17 @@
   <a href="https://marketplace.visualstudio.com/items?itemName=jolaleye.horizon-theme-vscode">
     <img alt="marketplace version" src="https://img.shields.io/vscode-marketplace/v/jolaleye.horizon-theme-vscode.svg?maxAge=3600&style=for-the-badge&colorA=1C1E26&colorB=FAB38E">
   </a>
-  <!-- installs -->
+  <!-- downloads -->
   <a href="https://marketplace.visualstudio.com/items?itemName=jolaleye.horizon-theme-vscode">
-    <img alt="installs" src="https://vsmarketplacebadge.apphb.com/installs-short/jolaleye.horizon-theme-vscode.svg?maxAge=3600&style=for-the-badge&colorA=1C1E26&colorB=FAB38E">
+    <img alt="downloads" src="https://img.shields.io/visual-studio-marketplace/d/jolaleye.horizon-theme-vscode.svg?maxAge=3600&style=for-the-badge&colorA=1C1E26&colorB=FAB38E">
   </a>
   <!-- rating -->
   <a href="https://marketplace.visualstudio.com/items?itemName=jolaleye.horizon-theme-vscode">
-    <img alt="rating" src="https://vsmarketplacebadge.apphb.com/rating-star/jolaleye.horizon-theme-vscode.svg?maxAge=86400&style=for-the-badge&colorA=1C1E26&colorB=FAB38E">
+    <img alt="rating" src="https://img.shields.io/visual-studio-marketplace/stars/jolaleye.horizon-theme-vscode.svg?maxAge=86400&style=for-the-badge&colorA=1C1E26&colorB=FAB38E">
   </a>
-  <!-- donation -->
-  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=8U6XT98BHG63E&item_name=To+support+the+development+of+Horizon+and+my+other+open-source+projects.+Thank+you%21&currency_code=USD&source=url">
-    <img alt="donate" src="https://img.shields.io/badge/donate-$-FAB38E.svg?style=for-the-badge&colorA=1C1E26">
+  <!-- donate -->
+  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=8U6XT98BHG63E&item_name=Support+Horizon+-+Thank+You%21&currency_code=USD&source=url">
+    <img alt="donate" src="https://img.shields.io/badge/support-❤_$-FAB38E.svg?style=for-the-badge&colorA=1C1E26">
   </a>
 </p>
 
