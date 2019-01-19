@@ -2,6 +2,10 @@
 
 All notable changes to Horizon will be documented in this file.
 
+## 1.6.5 (January 19, 2019)
+
+- Update README badges ([377c6b6](https://github.com/jolaleye/horizon-theme-vscode/commit/377c6b6))
+
 ## 1.6.4 (January 15, 2019)
 
 - Update terminal colors ([0cb2966](https://github.com/jolaleye/horizon-theme-vscode/commit/0cb2966))
