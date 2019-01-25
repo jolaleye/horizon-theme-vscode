@@ -110,6 +110,7 @@
     "titleBar.inactiveBackground": "#1C1E26",
     "extensionButton.prominentBackground": "#E95378",
     "extensionButton.prominentHoverBackground": "#E9436D",
+    "pickerGroup.foreground": "#E95378E6",
     "terminal.foreground": "#D5D8DA",
     "terminal.ansiBlue": "#26BBD9",
     "terminal.ansiBrightBlue": "#3FC4DE",
@@ -132,9 +133,7 @@
     "gitDecoration.deletedResourceForeground": "#F43E5C",
     "gitDecoration.untrackedResourceForeground": "#27D797",
     "gitDecoration.ignoredResourceForeground": "#D5D8DA59",
-    "breadcrumbPicker.background": "#232530",
-    "pickerGroup.foreground": "#E95678E6",
-    "progressBar.background": "#E95678E6"
+    "breadcrumbPicker.background": "#232530"
   },
   "tokenColors": [
     {
