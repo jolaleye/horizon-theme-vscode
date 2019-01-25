@@ -132,7 +132,9 @@
     "gitDecoration.deletedResourceForeground": "#F43E5C",
     "gitDecoration.untrackedResourceForeground": "#27D797",
     "gitDecoration.ignoredResourceForeground": "#D5D8DA59",
-    "breadcrumbPicker.background": "#232530"
+    "breadcrumbPicker.background": "#232530",
+    "pickerGroup.foreground": "#E95678E6",
+    "progressBar.background": "#E95678E6"
   },
   "tokenColors": [
     {
