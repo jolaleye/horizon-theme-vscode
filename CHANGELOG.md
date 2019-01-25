@@ -2,6 +2,12 @@
 
 All notable changes to Horizon will be documented in this file.
 
+## 1.6.6 (January 25, 2019)
+
+- Fix missing picker header color ([@ajitid](https://github.com/ajitid) in [#11](https://github.com/jolaleye/horizon-theme-vscode/pull/11))
+- Fix missing progress bar color ([@ajitid](https://github.com/ajitid) in [#11](https://github.com/jolaleye/horizon-theme-vscode/pull/11))
+- Add README homepage link ([c77a1f6](https://github.com/jolaleye/horizon-theme-vscode/commit/c77a1f6))
+
 ## 1.6.5 (January 19, 2019)
 
 - Update README badges ([377c6b6](https://github.com/jolaleye/horizon-theme-vscode/commit/377c6b6))
