@@ -1,5 +1,5 @@
 {
-  "name": "Horizon",
+  "name": "Horizon Bold",
   "type": "dark",
   "colors": {
     "focusBorder": "#1A1C23",
@@ -321,7 +321,8 @@
       "name": "Support function",
       "scope": "support.function",
       "settings": {
-        "foreground": "#25B0BCE6"
+        "foreground": "#25B0BCE6",
+        "fontStyle": "bold"
       }
     },
     {
