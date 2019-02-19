@@ -2,6 +2,10 @@
 
 All notable changes to Horizon will be documented in this file.
 
+## 1.7.0 (February 18, 2019)
+
+- Add Horizon Bold variant ([@tinvaan](https://github.com/tinvaan) in [#14](https://github.com/jolaleye/horizon-theme-vscode/pull/14))
+
 ## 1.6.6 (January 25, 2019)
 
 - Fix missing picker header color ([@ajitid](https://github.com/ajitid) in [#11](https://github.com/jolaleye/horizon-theme-vscode/pull/11))
