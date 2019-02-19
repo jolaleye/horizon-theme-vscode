@@ -29,7 +29,7 @@
   <img alt="preview" src="https://i.imgur.com/y0gi1ez.png" width="90%">
 </p>
 
-> The preview above shows the _Horizon_ theme with the _Roboto Mono_ font. Horizon also includes a _Horizon Italic_ variant.
+> The preview above shows the _Horizon_ theme with the _Roboto Mono_ font. Horizon also includes italic and bold variants.
 
 ## Installation
 
