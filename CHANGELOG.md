@@ -2,6 +2,12 @@
 
 All notable changes to Horizon will be documented in this file.
 
+## 1.7.1 (February 20, 2019)
+
+- Fix draggable debug toolbar color ([fa90573](https://github.com/jolaleye/horizon-theme-vscode/commit/fa90573), thanks to [@KasiMaru](https://github.com/KasiMaru))
+- Update theming reference README links ([fd940fc](https://github.com/jolaleye/horizon-theme-vscode/commit/fd940fc))
+- Update installation instructions ([5905b07](https://github.com/jolaleye/horizon-theme-vscode/commit/5905b07))
+
 ## 1.7.0 (February 18, 2019)
 
 - Add Horizon Bold variant ([@tinvaan](https://github.com/tinvaan) in [#14](https://github.com/jolaleye/horizon-theme-vscode/pull/14))
