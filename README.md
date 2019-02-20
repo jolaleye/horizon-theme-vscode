@@ -35,8 +35,8 @@
 
 1. Open the **Extensions** sidebar in VS Code
 2. Search for `Horizon Theme`
-3. Click **Install** and **Reload**
-4. Open the **Command Palette** with `Ctrl+Shift+P`
+3. Click **Install**
+4. Open the **Command Palette** with `Ctrl+Shift+P` or `⇧⌘P`
 5. Select **Preferences: Color Theme** and choose a Horizon variant.
 6. Enjoy! 🎉 Also, check out some of the personalization options below...
 
@@ -45,7 +45,7 @@
 ## Personalization
 
 Themes are highly subjective and tastes change all the time. Luckily, VS Code makes it easy to customize just about every aspect of your editor.
-If you want to change something, open the Command Palette with `Ctrl+Shift+P` and select **Preferences: Open Settings (JSON)**. You can then override VS Code's defaults or Horizon's colors in the right side of the settings view.
+If you want to change something, open the **Command Palette** and select **Preferences: Open Settings (JSON)**. You can then override VS Code's defaults or Horizon's colors in the right side of the settings view.
 Check out some of the personalization options below to customize Horizon to suit your taste.
 
 For more info on theming, visit the [Theme Authoring Guide](https://code.visualstudio.com/api/extension-capabilities/theming) and [Theme Color Reference](https://code.visualstudio.com/api/references/theme-color).
