@@ -154,6 +154,13 @@
       }
     },
     {
+      "name": "Punctuation within templates",
+      "scope": "string.template meta.embedded.line",
+      "settings": {
+        "foreground": "#BBBBBBFF"
+      }
+    },
+    {
       "name": "Variable",
       "scope": "variable",
       "settings": {
