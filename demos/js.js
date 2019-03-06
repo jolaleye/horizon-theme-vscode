@@ -18,6 +18,8 @@ const banana = new Banana(10);
 banana.eat();
 console.log(Banana.peelTime(100));
 
+const tl = `Blah blah ${blah} ${blah()} ${blah[0]} blah`;
+
 function makeBanana(num) {}
 
 for (let i = 0; i < 10; i++) {
