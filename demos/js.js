@@ -1,49 +1,53 @@
-class Banana {
-  constructor(goodOrNah) {
-    this.quality = goodOrNah;
-  }
-
-  eat() {
-    // omnomomnomom
-    const om = 'om\nnom';
-  }
-
-  static peelTime(length) {
-    const magicNumber = 123;
-    return length * magicNumber;
+class Class {
+  constructor() {}
+  static staticMethod() {
+    this.something;
   }
 }
+const c = new Class();
+c.staticMethod();
 
-const banana = new Banana(10);
-banana.eat();
-console.log(Banana.peelTime(100));
-
-const tl = `Blah blah ${blah} ${blah()} ${blah[0]} blah`;
-
-function makeBanana(num) {}
-
-for (let i = 0; i < 10; i++) {
-  makeBanana();
+function func(param) {
+  return;
 }
-for (const thing of stuff) {}
-for (let thing in stuff) {}
+func();
 
-const regex = /banana/;
-const regexdos = /[.*+?^${}()|[\]\\]/g;
+const num = 123;
+let string = 'string';
 
-if (true) {}
-while (true) {}
+// comment
 
-switch (fruit) {
-  case 'banana':
+console.log();
+
+const obj = {
+  a: 1,
+  b: '2',
+  c: true
+};
+
+if (something) {
+} else if (somethingElse) {
+} else {
+}
+
+switch (thing) {
+  case 'blah':
     break;
   default:
     break;
 }
 
-const asyncFetchBananas = async () => {
-  let bananas = await findBananas();
+const template = `${obj.b} abcdefghijk ${elemeno} pqrstuvwxyz ${func()}`;
 
-  const specialBanana = new Banana(11);
-  bananas.push(specialBanana);
+for (let i = 0; i < 10; i++) {}
+for (const thing of stuff) {
 }
+for (const thing in stuff) {
+}
+while (false) {}
+
+const regex = /^abc|def[A-Z]$/gim;
+
+const asyncFunc = async () => {
+  await operation();
+};
