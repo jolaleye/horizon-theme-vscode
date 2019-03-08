@@ -44,11 +44,11 @@
 
 ## Personalization
 
-Themes are highly subjective and tastes change all the time. Luckily, VS Code makes it easy to customize just about every aspect of your editor.
-If you want to change something, open the **Command Palette** and select **Preferences: Open Settings (JSON)**. You can then override VS Code's defaults or Horizon's colors in the right side of the settings view.
+Tastes change all the time. Fortunately, VS Code makes it easy to customize just about every aspect of your editor.
+If you want to change something, open the **Command Palette** and select **Preferences: Open Settings (JSON)**. Here, you can override VS Code's defaults or Horizon's colors.
 Check out some of the personalization options below to customize Horizon to suit your taste.
 
-For more info on theming, visit the [Theme Authoring Guide](https://code.visualstudio.com/api/extension-capabilities/theming) and [Theme Color Reference](https://code.visualstudio.com/api/references/theme-color).
+_For more info on theming, visit the [Theme Authoring Guide](https://code.visualstudio.com/api/extension-capabilities/theming) and [Theme Color Reference](https://code.visualstudio.com/api/references/theme-color)._
 
 ### Sidebar Contrast
 
@@ -81,6 +81,8 @@ The normal theme only uses italics in a few places: comments, parameters, and so
 
 ### Tag Brackets `<>`
 
+For gray rather than red brackets around HTML tags...
+
 ```
 "editor.tokenColorCustomizations": {
   "textMateRules": [
@@ -109,7 +111,7 @@ Read the contributing guide to learn about how you can report issues and contrib
 
 ### Syntax Colors
 
-> **Note:** All syntax colors have 90% opacity so your eyes don't burn :)
+> **Note:** All syntax colors have 90% opacity so that they're easier on the eyes :)
 
 |                            Color                            | Usage                                                                    |
 | :---------------------------------------------------------: | ------------------------------------------------------------------------ |
