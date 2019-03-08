@@ -1,32 +1,13 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import Nav from './Nav';
 
-import './Horizon.css';
+export default function Component() {
+  const [state, setState] = useState();
 
-class Horizon extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      awesome: true,
-      notAwesome: 'never'
-    }
-  }
-
-  handleClick = () => {
-    this.setState({});
-  }
-
-  render() {
-    return (
-      <div className="horizon">
-        <Nav />
-        <h1>Horizon is pretty nice</h1>
-        <span>Hope you like it!</span>
-        <button onClick={this.handleClick}>click me</button>
-      </div>
-    );
-  }
+  return (
+    <div>
+      <Nav />
+      <button onClick={() => setState(state + 1)} />
+    </div>
+  );
 }
-
-export default Horizon;
