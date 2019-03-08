@@ -1,13 +1,23 @@
 .class {
-  color: #E9416D;
-  background: rgb(25, 27, 37);
-}
-
-#id:after {
-  font-family: 'Roboto', sans-serif;
+  color: #e9416d;
+  color: rgb(25, 27, 37);
+  color: hsl(347, 82%, 58%);
   color: salmon;
 }
 
-div:nth-child(3) {
+#id {
+  font-family: 'Poppins', sans-serif;
+  font-size: 10em;
+}
+
+div {
+  display: flex;
   margin: 0 1em;
+}
+
+.special:after,
+.special:before,
+.special:nth-child(1),
+.special:hover {
+  padding: 1em;
 }
