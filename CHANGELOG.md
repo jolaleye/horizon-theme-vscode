@@ -2,9 +2,17 @@
 
 All notable changes to Horizon will be documented in this file.
 
+## 1.8.0 (March 8, 2019)
+
+- Update bold theme (now more closely matches italic theme) ([e741c04](https://github.com/jolaleye/horizon-theme-vscode/commit/e741c04))
+- Italicize special operators (Italic theme) ([52a6223](https://github.com/jolaleye/horizon-theme-vscode/commit/52a6223))
+- Fix punctuation within template strings ([c06c377](https://github.com/jolaleye/horizon-theme-vscode/commit/c06c377))
+- Minor README changes ([ca62111](https://github.com/jolaleye/horizon-theme-vscode/commit/ca62111))
+- Update syntax highlighting demos ([35166b4](https://github.com/jolaleye/horizon-theme-vscode/commit/35166b4), [5e7e1fe](https://github.com/jolaleye/horizon-theme-vscode/commit/5e7e1fe), [26286c2](https://github.com/jolaleye/horizon-theme-vscode/commit/26286c2), [eac27f0](https://github.com/jolaleye/horizon-theme-vscode/commit/eac27f0))
+
 ## 1.7.1 (February 20, 2019)
 
-- Fix draggable debug toolbar color ([fa90573](https://github.com/jolaleye/horizon-theme-vscode/commit/fa90573), thanks to [@KasiMaru](https://github.com/KasiMaru))
+- Fix draggable debug toolbar color ([fa90573](https://github.com/jolaleye/horizon-theme-vscode/commit/fa90573))
 - Update theming reference README links ([fd940fc](https://github.com/jolaleye/horizon-theme-vscode/commit/fd940fc))
 - Update installation instructions ([5905b07](https://github.com/jolaleye/horizon-theme-vscode/commit/5905b07))
 
