@@ -186,8 +186,8 @@
       "name": "Storage (declaration or modifier keyword)",
       "scope": ["storage.type", "storage.modifier"],
       "settings": {
-        "fontStyle": "bold",
-        "foreground": "#B877DBE6"
+        "foreground": "#B877DBE6",
+        "fontStyle": "bold"
       }
     },
     {
@@ -215,7 +215,6 @@
       "name": "Language constant (boolean, null)",
       "scope": "constant.language",
       "settings": {
-        "fontStyle": "bold",
         "foreground": "#F09483E6"
       }
     },
@@ -237,30 +236,30 @@
       "name": "HTML or XML tag",
       "scope": "entity.name.tag",
       "settings": {
-        "fontStyle": "bold",
-        "foreground": "#E95678E6"
+        "foreground": "#E95678E6",
+        "fontStyle": "bold"
       }
     },
     {
       "name": "HTML or XML tag brackets",
       "scope": ["punctuation.definition.tag"],
       "settings": {
-        "fontStyle": "bold",
-        "foreground": "#E95678A6"
+        "foreground": "#E95678A6",
+        "fontStyle": "bold"
       }
     },
     {
       "name": "Tag atttribute",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#F09483E6"
+        "foreground": "#F09483E6",
+        "fontStyle": "bold"
       }
     },
     {
       "name": "Class",
       "scope": "entity.name.type",
       "settings": {
-        "fontStyle": "bold",
         "foreground": "#FAC29AE6"
       }
     },
@@ -268,7 +267,6 @@
       "name": "Inherited class",
       "scope": "entity.other.inherited-class",
       "settings": {
-        "fontStyle": "bold",
         "foreground": "#FAB795E6"
       }
     },
@@ -276,7 +274,6 @@
       "name": "Function",
       "scope": ["entity.name.function", "variable.function"],
       "settings": {
-        "fontStyle": "bold",
         "foreground": "#25B0BCE6"
       }
     },
@@ -284,7 +281,6 @@
       "name": "Keyword",
       "scope": "keyword",
       "settings": {
-        "fontStyle": "bold",
         "foreground": "#B877DBE6"
       }
     },
@@ -292,8 +288,8 @@
       "name": "Control keyword (if, try, while, etc.)",
       "scope": "keyword.control",
       "settings": {
-        "fontStyle": "bold",
-        "foreground": "#B877DBE6"
+        "foreground": "#B877DBE6",
+        "fontStyle": "bold"
       }
     },
     {
@@ -307,8 +303,8 @@
       "name": "Special operator",
       "scope": ["keyword.operator.new", "keyword.operator.expression", "keyword.operator.logical"],
       "settings": {
-        "fontStyle": "bold",
-        "foreground": "#B877DBE6"
+        "foreground": "#B877DBE6",
+        "fontStyle": "bold"
       }
     },
     {
@@ -329,8 +325,7 @@
       "name": "Support function",
       "scope": "support.function",
       "settings": {
-        "foreground": "#25B0BCE6",
-        "fontStyle": "bold"
+        "foreground": "#25B0BCE6"
       }
     },
     {
@@ -450,7 +445,6 @@
       "name": "Python function call",
       "scope": "meta.function-call.generic.python",
       "settings": {
-        "fontStyle": "bold",
         "foreground": "#25B0BCE6"
       }
     },
@@ -479,7 +473,6 @@
       "name": "C++ operators",
       "scope": "source.cpp keyword.operator",
       "settings": {
-        "fontStyle": "bold",
         "foreground": "#B877DBE6"
       }
     }
