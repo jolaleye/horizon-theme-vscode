@@ -148,7 +148,7 @@
     },
     {
       "name": "String",
-      "scope": ["string.quoted", "string.template", "punctuation.definition.string"],
+      "scope": ["string.quoted", "string.template", "punctuation.definition.string", "string.quasi"],
       "settings": {
         "foreground": "#FAB795E6"
       }
