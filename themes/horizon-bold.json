@@ -162,7 +162,7 @@
     },
     {
       "name": "Variable",
-      "scope": "variable",
+      "scope": ["variable", "entity.name.variable"],
       "settings": {
         "foreground": "#E95678E6"
       }
@@ -226,7 +226,7 @@
       }
     },
     {
-      "name": "Entity (data interfaces)",
+      "name": "Entity",
       "scope": "entity.name",
       "settings": {
         "foreground": "#FAC29AE6"
