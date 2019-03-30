@@ -2,6 +2,11 @@
 
 All notable changes to Horizon will be documented in this file.
 
+## 1.8.1 (March 30, 2019)
+
+- Update homepage URL ([daa21b2](https://github.com/jolaleye/horizon-theme-vscode/commit/daa21b2))
+- Fix C# parameter highlighting ([f591061](https://github.com/jolaleye/horizon-theme-vscode/commit/f591061))
+
 ## 1.8.0 (March 8, 2019)
 
 - Update bold theme (now more closely matches italic theme) ([e741c04](https://github.com/jolaleye/horizon-theme-vscode/commit/e741c04))
