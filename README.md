@@ -40,7 +40,7 @@
 5. Select **Preferences: Color Theme** and choose a Horizon variant.
 6. Enjoy! 🎉 Also, check out some of the personalization options below...
 
-> Visit the [Horizon Homepage](https://jolaleye.github.io/horizon-theme-vscode/) for some nice previews :)
+> Visit the [Horizon Homepage](https://horizontheme.netlify.com) for some nice previews :)
 
 ## Personalization
 
