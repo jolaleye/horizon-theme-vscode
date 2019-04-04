@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://jolaleye.github.io/horizon-theme-vscode/">
+  <a href="https://horizontheme.com/">
     <img alt="horizon banner" src="https://i.imgur.com/pwBUCSe.png">
   </a>
 </p>
@@ -40,7 +40,7 @@
 5. Select **Preferences: Color Theme** and choose a Horizon variant.
 6. Enjoy! 🎉 Also, check out some of the personalization options below...
 
-> Visit the [Horizon Homepage](https://horizontheme.netlify.com) for some nice previews :)
+> Visit the [Horizon Homepage](https://horizontheme.com/) for some nice previews :)
 
 ## Personalization
 
