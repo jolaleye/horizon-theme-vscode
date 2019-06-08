@@ -2,6 +2,10 @@
 
 All notable changes to Horizon will be documented in this file.
 
+## 1.8.2 (June 8, 2019)
+
+- Fix Markdown highlighting ([d9cb30c](https://github.com/jolaleye/horizon-theme-vscode/commit/d9cb30c))
+
 ## 1.8.1 (March 30, 2019)
 
 - Update homepage URL ([daa21b2](https://github.com/jolaleye/horizon-theme-vscode/commit/daa21b2))
