@@ -415,10 +415,17 @@
       }
     },
     {
-      "name": "Markup list",
-      "scope": "beginning.punctuation.definition.list",
+      "name": "Markdown punctuation",
+      "scope": [
+        "punctuation.definition.list.begin.markdown",
+        "punctuation.definition.bold.markdown",
+        "punctuation.definition.italic.markdown",
+        "punctuation.definition.raw.markdown",
+        "punctuation.definition.constant.markdown",
+        "markup.fenced_code.block.markdown"
+      ],
       "settings": {
-        "foreground": "#E95678E6"
+        "foreground": "#F09483E6"
       }
     },
     {
