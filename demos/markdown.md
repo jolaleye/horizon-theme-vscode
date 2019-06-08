@@ -9,3 +9,13 @@
 1. Install [Visual Studio Code](https://code.visualstudio.com/)
 2. ?
 3. Install Horizon
+
+**bold**
+_italic_
+
+[logo]: link
+
+`code`
+
+```javascript
+```
