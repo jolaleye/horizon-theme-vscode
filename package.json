@@ -7,6 +7,9 @@
   "publisher": "jolaleye",
   "license": "MIT",
   "icon": "logo.png",
+  "scripts": {
+    "build": "node src/build"
+  },
   "engines": {
     "vscode": "^1.26.0"
   },
@@ -41,6 +44,9 @@
         "path": "./themes/horizon-bold.json"
       }
     ]
+  },
+  "devDependencies": {
+    "mustache": "^3.0.1"
   },
   "repository": {
     "type": "git",
