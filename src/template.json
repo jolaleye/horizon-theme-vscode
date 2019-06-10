@@ -178,7 +178,8 @@
       "name": "Tags",
       "scope": "entity.name.tag",
       "settings": {
-        "foreground": "{{ syntax.cranberry }}{{ alpha.high }}"
+        "foreground": "{{ syntax.cranberry }}{{ alpha.high }}",
+        "fontStyle": "{{ tagStyle }}"
       }
     },
     {
@@ -192,7 +193,8 @@
       "name": "Tag attributes",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "{{ syntax.apricot }}{{ alpha.high }}"
+        "foreground": "{{ syntax.apricot }}{{ alpha.high }}",
+        "fontStyle": "{{ attributeStyle }}"
       }
     },
     {
@@ -227,7 +229,8 @@
       "name": "Keywords",
       "scope": "keyword",
       "settings": {
-        "foreground": "{{ syntax.lavender }}{{ alpha.high }}"
+        "foreground": "{{ syntax.lavender }}{{ alpha.high }}",
+        "fontStyle": "{{ keywordStyle }}"
       }
     },
     {
@@ -300,7 +303,8 @@
       "name": "Storage keywords",
       "scope": "storage",
       "settings": {
-        "foreground": "{{ syntax.lavender }}{{ alpha.high }}"
+        "foreground": "{{ syntax.lavender }}{{ alpha.high }}",
+        "fontStyle": "{{ keywordStyle }}"
       }
     },
     {
@@ -385,7 +389,8 @@
       "name": "Tag brackets",
       "scope": "punctuation.definition.tag",
       "settings": {
-        "foreground": "{{ syntax.cranberry }}{{ alpha.highMed }}"
+        "foreground": "{{ syntax.cranberry }}{{ alpha.highMed }}",
+        "fontStyle": "{{ tagStyle }}"
       }
     },
     {
