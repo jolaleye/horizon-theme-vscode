@@ -5,7 +5,8 @@
     "turquoise": "#25B0BC",
     "apricot": "#F09483",
     "rosebud": "#FAB795",
-    "tacao": "#FAC29A"
+    "tacao": "#FAC29A",
+    "gray": "#BBBBBB"
   },
   "ui": {
     "lightText": "#D5D8DA",
