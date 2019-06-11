@@ -1,21 +1,23 @@
-# Horizon
+# Heading
 
-> A beautiful dark theme for Visual Studio Code
+> This is a quote
 
-![Icon](../icon.png)
+[Here's a link](https://horizontheme.com)
 
-## Installation
+1. Step 1
+2. Step 2
+3. Step 3
 
-1. Install [Visual Studio Code](https://code.visualstudio.com/)
-2. ?
-3. Install Horizon
+- thing
+- other thing
 
 **bold**
 _italic_
 
-[logo]: link
+[footnote]: thing
 
 `code`
 
 ```javascript
+const x = 29;
 ```

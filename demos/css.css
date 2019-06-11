@@ -1,23 +1,21 @@
 .class {
-  color: #e9416d;
-  color: rgb(25, 27, 37);
-  color: hsl(347, 82%, 58%);
-  color: salmon;
+  color: red;
+  color: #008000;
+  color: hsl(240, 100%, 50%);
 }
 
 #id {
-  font-family: 'Poppins', sans-serif;
-  font-size: 10em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
 }
 
 div {
   display: flex;
-  margin: 0 1em;
+  margin: 1em;
 }
 
-.special:after,
-.special:before,
-.special:nth-child(1),
-.special:hover {
-  padding: 1em;
+.pseudo:after,
+.child:nth-child(1),
+.state:hover {
+  padding: calc();
 }

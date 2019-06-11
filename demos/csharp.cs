@@ -1,17 +1,15 @@
 using System;
 
-namespace SomeNamespace { }
-
-class SomeClass : Inherited
+class Class : Inherited
 {
-  private int number;
+    private int num = 29;
+    private string str = "string";
+    private bool boo = true;
 
-  public static void Main()
-  {
-    SomeOtherClass thingy = new SomeOtherClass();
-    thingy.SomeMethod();
-    print();
-  }
-
-  public void SomeMethod(SomeOtherClass thingy) { }
+    public void Method(Type obj)
+    {
+        obj.Method();
+        print();
+        Type2 thing = new Type2();
+    }
 }

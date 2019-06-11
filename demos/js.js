@@ -1,53 +1,63 @@
-class Class {
-  constructor() {}
-  static staticMethod() {
-    this.something;
-  }
-}
-const c = new Class();
-c.staticMethod();
-
-function func(param) {
-  return;
-}
-func();
-
-const num = 123;
-let string = 'string';
+let num = 29;
+var bool = true;
+const string = 'string';
+const template = `something${something}something${something()}`;
+const regex = /^abc|def[A-Z]$/gim;
 
 // comment
 
+class Class {
+  constructor() {
+    this.something;
+  }
+  static method() {}
+}
+
+const something = new Class();
+
+something.method();
+
+async function func(param) {
+  await op();
+  return;
+}
+
+func();
+
 console.log();
 
+try {
+} catch (err) {}
+
 const obj = {
-  a: 1,
-  b: '2',
-  c: true
+  a: something
 };
 
 if (something) {
-} else if (somethingElse) {
+} else if (something) {
 } else {
 }
 
-switch (thing) {
-  case 'blah':
+switch (something) {
+  case 'something':
     break;
   default:
     break;
 }
 
-const template = `${obj.b} abcdefghijk ${elemeno} pqrstuvwxyz ${func()}`;
-
 for (let i = 0; i < 10; i++) {}
-for (const thing of stuff) {
-}
-for (const thing in stuff) {
-}
-while (false) {}
 
-const regex = /^abc|def[A-Z]$/gim;
+for (const something of things) {
+}
 
-const asyncFunc = async () => {
-  await operation();
-};
+for (const soemthing in things) {
+}
+
+while (something) {}
+
+do {} while (something);
+
+debugger;
+
+import something from '';
+export default something;

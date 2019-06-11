@@ -1,14 +1,9 @@
 {
-  "extends": "eslint:recommended",
-  "env": {
-    "es6": true,
-    "mocha": true,
-    "node": true
-  },
-  "rules": {
-    "indent": ["error", 2],
-    "linebreak-style": ["error", "unix"],
-    "quotes": ["error", "single"],
-    "semi": ["error", "always"]
+  "key": "value",
+  "key2": true,
+  "key3": ["a", "b", "c"],
+  "key4": {
+    "a": true,
+    "b": false
   }
 }
