@@ -76,14 +76,15 @@
     "editorBracketMatch.border": "{{ ui.accentAlt }}{{ alpha.none }}",
     "editorOverviewRuler.border": "{{ ui.accent }}{{ alpha.low }}",
     "editorOverviewRuler.findMatchForeground": "{{ ui.accentAlt }}",
-    "editorOverviewRuler.modifiedForeground": "{{ ui.modified }}{{ alpha.med }}",
-    "editorOverviewRuler.addedForeground": "{{ ui.positive }}{{ alpha.med }}",
-    "editorOverviewRuler.deletedForeground": "{{ ui.negative }}{{ alpha.med }}",
+    "editorOverviewRuler.modifiedForeground": "{{ ui.modified }}{{ alpha.highMed }}",
+    "editorOverviewRuler.addedForeground": "{{ ui.positive }}{{ alpha.highMed }}",
+    "editorOverviewRuler.deletedForeground": "{{ ui.negative }}{{ alpha.highMed }}",
     "editorOverviewRuler.errorForeground": "{{ ui.negative }}{{ alpha.high }}",
-    "editorOverviewRuler.warningForeground": "{{ ui.warning }}{{ alpha.med }}",
-    "editorOverviewRuler.bracketMatchForeground": "{{ ui.darkText }}{{ alpha.med }}",
+    "editorOverviewRuler.warningForeground": "{{ ui.warning }}{{ alpha.highMed }}",
+    "editorOverviewRuler.bracketMatchForeground": "{{ ui.darkText }}{{ alpha.highMed }}",
     "editorError.foreground": "{{ ui.negative }}",
     "editorWarning.foreground": "{{ ui.warning }}{{ alpha.highMed }}",
+    "editorUnnecessaryCode.opacity": "#000000{{ alpha.highMed }}",
     "editorGutter.modifiedBackground": "{{ ui.modified }}{{ alpha.highMed }}",
     "editorGutter.addedBackground": "{{ ui.positive }}{{ alpha.highMed }}",
     "editorGutter.deletedBackground": "{{ ui.negative }}{{ alpha.highMed }}",
@@ -143,7 +144,7 @@
       "name": "Comments",
       "scope": "comment",
       "settings": {
-        "foreground": "{{ syntax.black }}{{ alpha.medLow }}",
+        "foreground": "{{ syntax.black }}{{ alpha.med }}",
         "fontStyle": "italic"
       }
     },
@@ -151,7 +152,7 @@
       "name": "Constants",
       "scope": "constant",
       "settings": {
-        "foreground": "{{ syntax.valencia }}"
+        "foreground": "{{ syntax.thunderbird }}"
       }
     },
     {
@@ -165,7 +166,7 @@
       "name": "Named entities",
       "scope": "entity.name",
       "settings": {
-        "foreground": "{{ syntax.tango }}"
+        "foreground": "{{ syntax.jaffa }}"
       }
     },
     {
@@ -187,14 +188,14 @@
       "name": "Static types",
       "scope": ["entity.name.type", "storage.type.cs"],
       "settings": {
-        "foreground": "{{ syntax.tango }}"
+        "foreground": "{{ syntax.jaffa }}"
       }
     },
     {
       "name": "Tag attributes",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "{{ syntax.valencia }}",
+        "foreground": "{{ syntax.thunderbird }}",
         "fontStyle": "{{ attributeStyle }}"
       }
     },
@@ -202,7 +203,7 @@
       "name": "Inherited classes",
       "scope": "entity.other.inherited-class",
       "settings": {
-        "foreground": "{{ syntax.sunset }}"
+        "foreground": "{{ syntax.tango }}"
       }
     },
     {
@@ -216,7 +217,7 @@
       "name": "Pseudo CSS",
       "scope": ["entity.other.attribute-name.pseudo-element", "entity.other.attribute-name.pseudo-class"],
       "settings": {
-        "foreground": "{{ syntax.sunset }}"
+        "foreground": "{{ syntax.tango }}"
       }
     },
     {
@@ -252,14 +253,14 @@
       "name": "Units",
       "scope": "keyword.other.unit",
       "settings": {
-        "foreground": "{{ syntax.valencia }}"
+        "foreground": "{{ syntax.thunderbird }}"
       }
     },
     {
       "name": "Markup quotes",
       "scope": "markup.quote",
       "settings": {
-        "foreground": "{{ syntax.sunset }}{{ alpha.highMed }}",
+        "foreground": "{{ syntax.tango }}{{ alpha.highMed }}",
         "fontStyle": "italic"
       }
     },
@@ -290,14 +291,14 @@
       "name": "Markup code",
       "scope": ["markup.inline.raw", "markup.fenced_code.block"],
       "settings": {
-        "foreground": "{{ syntax.valencia }}"
+        "foreground": "{{ syntax.thunderbird }}"
       }
     },
     {
       "name": "Markup links",
       "scope": "markup.underline.link",
       "settings": {
-        "foreground": "{{ syntax.sunset }}"
+        "foreground": "{{ syntax.tango }}"
       }
     },
     {
@@ -312,28 +313,28 @@
       "name": "Strings",
       "scope": ["string.quoted", "string.template"],
       "settings": {
-        "foreground": "{{ syntax.sunset }}"
+        "foreground": "{{ syntax.tango }}"
       }
     },
     {
       "name": "Regex",
       "scope": "string.regexp",
       "settings": {
-        "foreground": "{{ syntax.valencia }}"
+        "foreground": "{{ syntax.thunderbird }}"
       }
     },
     {
       "name": "Markup link descriptions",
       "scope": "string.other.link",
       "settings": {
-        "foreground": "{{ syntax.valencia }}"
+        "foreground": "{{ syntax.thunderbird }}"
       }
     },
     {
       "name": "Provided (support) values",
       "scope": "support",
       "settings": {
-        "foreground": "{{ syntax.tango }}"
+        "foreground": "{{ syntax.jaffa }}"
       }
     },
     {
@@ -368,7 +369,7 @@
       "name": "Language variables",
       "scope": ["variable.language"],
       "settings": {
-        "foreground": "{{ syntax.tango }}",
+        "foreground": "{{ syntax.jaffa }}",
         "fontStyle": "italic"
       }
     },
@@ -419,7 +420,7 @@
       "name": "Markup list punctuation",
       "scope": "punctuation.definition.list",
       "settings": {
-        "foreground": "{{ syntax.valencia }}"
+        "foreground": "{{ syntax.thunderbird }}"
       }
     }
   ]
