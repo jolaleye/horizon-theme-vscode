@@ -9,21 +9,21 @@
     "gray": "#BBBBBB"
   },
   "ui": {
-    "lightText": "#D5D8DA",
-    "darkText": "#06060C",
-    "border": "#1A1C23",
     "shadow": "#16161C",
+    "border": "#1A1C23",
     "background": "#1C1E26",
-    "backgroundLight": "#232530",
+    "backgroundAlt": "#232530",
     "accent": "#2E303E",
-    "accentLight": "#6C6F93",
-    "redAccent": "#E9436D",
-    "redAccentLight": "#E95378",
-    "peachAccent": "#FAB38E",
+    "accentAlt": "#6C6F93",
+    "secondaryAccent": "#E9436D",
+    "secondaryAccentAlt": "#E95378",
+    "tertiaryAccent": "#FAB38E",
     "positive": "#09F7A0",
     "negative": "#F43E5C",
     "warning": "#27D797",
-    "modified": "#21BFC2"
+    "modified": "#21BFC2",
+    "lightText": "#D5D8DA",
+    "darkText": "#06060C"
   },
   "ansi": {
     "normal": {
