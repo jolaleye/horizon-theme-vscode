@@ -2,6 +2,14 @@
 
 All notable changes to Horizon will be documented in this file.
 
+## 2.0.0 (June 12, 2019)
+
+- Rewrite Horizon with Mustache.js templates
+- Add Horizon Bright variants ([b12e4fe](https://github.com/jolaleye/horizon-theme-vscode/commit/b12e4fe))
+- Redesign [horizontheme.com](https://horizontheme.com) with more previews and a color reference
+- Update README ([8f2ceb3](https://github.com/jolaleye/horizon-theme-vscode/commit/8f2ceb3), [b22a98e](https://github.com/jolaleye/horizon-theme-vscode/commit/b22a98e))
+- Improve Markdown highlighting (thank you [@twhite96](https://github.com/twhite96))
+
 ## 1.8.2 (June 8, 2019)
 
 - Fix Markdown highlighting ([d9cb30c](https://github.com/jolaleye/horizon-theme-vscode/commit/d9cb30c))
