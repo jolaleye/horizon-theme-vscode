@@ -9,15 +9,15 @@
 <p align="center">
   <!-- marketplace version -->
   <a href="https://marketplace.visualstudio.com/items?itemName=jolaleye.horizon-theme-vscode">
-    <img alt="marketplace version" src="https://img.shields.io/vscode-marketplace/v/jolaleye.horizon-theme-vscode.svg?maxAge=3600&style=for-the-badge&labelColor=1C1E26&color=F8C3B4">
+    <img alt="marketplace version" src="https://img.shields.io/vscode-marketplace/v/jolaleye.horizon-theme-vscode.svg?maxAge=3600&style=for-the-badge&labelColor=1C1E26&color=F7B3A1">
   </a>
   <!-- downloads -->
   <a href="https://marketplace.visualstudio.com/items?itemName=jolaleye.horizon-theme-vscode">
-    <img alt="downloads" src="https://img.shields.io/visual-studio-marketplace/d/jolaleye.horizon-theme-vscode.svg?maxAge=3600&style=for-the-badge&labelColor=1C1E26&color=F8C3B4">
+    <img alt="downloads" src="https://img.shields.io/visual-studio-marketplace/d/jolaleye.horizon-theme-vscode.svg?maxAge=3600&style=for-the-badge&labelColor=1C1E26&color=F7B3A1">
   </a>
   <!-- rating -->
   <a href="https://marketplace.visualstudio.com/items?itemName=jolaleye.horizon-theme-vscode">
-    <img alt="rating" src="https://img.shields.io/visual-studio-marketplace/stars/jolaleye.horizon-theme-vscode.svg?maxAge=86400&style=for-the-badge&labelColor=1C1E26&color=F8C3B4">
+    <img alt="rating" src="https://img.shields.io/visual-studio-marketplace/stars/jolaleye.horizon-theme-vscode.svg?maxAge=86400&style=for-the-badge&labelColor=1C1E26&color=F7B3A1">
   </a>
 </p>
 
@@ -44,29 +44,36 @@ Check out some of the personalization options below to customize Horizon to suit
 
 _For more info on theming, visit the [Theme Authoring Guide](https://code.visualstudio.com/api/extension-capabilities/theming) and [Theme Color Reference](https://code.visualstudio.com/api/references/theme-color)._
 
-### Sidebar Contrast
+### Contrast
+
+To add a border between sections of the editor, add the following to your settings...
 
 ```
 "workbench.colorCustomizations": {
-  "activityBar.background": "#1E2028",
-  "activityBar.border": "#1E2028",
-  "sideBar.background": "#1E2028",
-  "sideBar.border": "#1C1E26"
+  "contrastBorder": "#16161C"
+}
+```
+
+Or for Bright variants...
+
+```
+"workbench.colorCustomizations": {
+  "contrastBorder": "#1A1C231A"
 }
 ```
 
 ### Italics
 
-The normal theme only uses italics in a few places: comments, parameters, and some special keywords (e.g. `this`). If you would prefer no italics at all, you can configure this in your settings...
+The normal theme only uses italics in a few places. If you would prefer no italics at all, you can configure this in your settings...
 
 ```
 "editor.tokenColorCustomizations": {
   "textMateRules": [
     {
       "name": "No italics",
-      "scope": ["comment", "variable.language", "variable.parameter"],
+      "scope": ["comment", "markup.quote", "variable.language", "variable.parameter"],
       "settings": {
-        "fontStyle": ""
+        "fontStyle": "normal"
       }
     }
   ]
@@ -81,7 +88,7 @@ For gray rather than red brackets around HTML tags...
 "editor.tokenColorCustomizations": {
   "textMateRules": [
     {
-      "name": "HTML tag brackets",
+      "name": "Tag brackets",
       "scope": ["punctuation.definition.tag"],
       "settings": {
         "foreground": "#BBBBBB"
@@ -93,13 +100,9 @@ For gray rather than red brackets around HTML tags...
 
 ## Contributing
 
-### [Code of Conduct](CODE_OF_CONDUCT.md)
+Check out the [contributing guide](CONTRIBUTING.md) to learn how you can report issues and help make changes.
 
-Always try your best to make a positive impact on this project and its community. By participating, you are expected to uphold the Code of Conduct.
-
-### [Contributing Guide](CONTRIBUTING.md)
-
-Read the contributing guide to learn about how you can report issues and contribute to changes.
+Always be sure to follow the [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## License
 
