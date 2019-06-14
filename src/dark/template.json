@@ -242,7 +242,12 @@
     },
     {
       "name": "Special operators",
-      "scope": ["keyword.operator.new", "keyword.operator.expression", "keyword.operator.logical"],
+      "scope": [
+        "keyword.operator.new",
+        "keyword.operator.expression",
+        "keyword.operator.logical",
+        "keyword.operator.delete"
+      ],
       "settings": {
         "foreground": "{{ syntax.lavender }}{{ alpha.high }}"
       }
