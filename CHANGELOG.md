@@ -2,6 +2,10 @@
 
 All notable changes to Horizon will be documented in this file.
 
+## 2.0.1 (June 14, 2019)
+
+- Fix delete keyword highlighting ([bf126fc](https://github.com/jolaleye/horizon-theme-vscode/commit/bf126fc))
+
 ## 2.0.0 (June 12, 2019)
 
 - Rewrite Horizon with Mustache.js templates
