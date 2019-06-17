@@ -5,7 +5,7 @@
     "focusBorder": "{{ ui.border }}{{ alpha.low }}",
     "foreground": "{{ ui.darkText }}",
     "widget.shadow": "{{ ui.shadow }}{{ alpha.medLow }}",
-    "selection.background": "{{ ui.accentAlt }}{{ alpha.med }}",
+    "selection.background": "{{ ui.tertiaryAccent }}{{ alpha.med }}",
     "errorForeground": "{{ ui.negative }}",
     "textLink.activeForeground": "{{ ui.secondaryAccent }}",
     "textLink.foreground": "{{ ui.secondaryAccentAlt }}",
