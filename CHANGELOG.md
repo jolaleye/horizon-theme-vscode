@@ -2,6 +2,10 @@
 
 All notable changes to Horizon will be documented in this file.
 
+## 2.0.2 (June 21, 2019)
+
+- Fix selection highlight color in Bright themes ([b113dc1](https://github.com/jolaleye/horizon-theme-vscode/commit/b113dc1))
+
 ## 2.0.1 (June 14, 2019)
 
 - Fix delete keyword highlighting ([bf126fc](https://github.com/jolaleye/horizon-theme-vscode/commit/bf126fc))
