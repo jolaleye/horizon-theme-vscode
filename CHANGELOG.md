@@ -14,7 +14,7 @@ All notable changes to Horizon will be documented in this file.
 
 - Rewrite Horizon with Mustache.js templates
 - Add Horizon Bright variants ([b12e4fe](https://github.com/jolaleye/horizon-theme-vscode/commit/b12e4fe))
-- Redesign [horizontheme.com](https://horizontheme.com) with more previews and a color reference
+- Redesign website with more previews and a color reference
 - Update README ([8f2ceb3](https://github.com/jolaleye/horizon-theme-vscode/commit/8f2ceb3), [b22a98e](https://github.com/jolaleye/horizon-theme-vscode/commit/b22a98e))
 - Improve Markdown highlighting (thank you [@twhite96](https://github.com/twhite96))
 
